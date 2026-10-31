@@ -1,0 +1,21 @@
+{
+  "slug": "abidin-5-prompt-ai",
+  "mode": "tutorial",
+  "voiceId": "nPczCjzI2devNBz1zQrb",
+  "modelId": "eleven_multilingual_v2",
+  "language": "id",
+  "seed": 42,
+  "voiceSettings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25,
+    "speed": 1.0,
+    "use_speaker_boost": true
+  },
+  "scenes": [
+    {
+      "id": "vo",
+      "text": "Berapa jam kerja Anda habis untuk hal yang sebenarnya bisa dibantu AI? Ini lima prompt sederhana untuk menghemat waktu. Satu. Ringkas. Tempel teks yang panjang, lalu minta: ringkas menjadi lima poin utama, dengan bahasa sederhana. Dua. Perbaiki tulisan. Minta AI berperan sebagai editor, supaya tulisan Anda lebih jelas dan singkat, tanpa mengubah maksud. Tiga. Atur jadwal. Berikan daftar tugas, lalu minta AI mengurutkannya dari yang paling penting. Empat. Balas pesan. Minta AI menulis balasan email yang sopan dan singkat. Lima. Tanya balik. Minta AI bertanya dulu tentang hal yang perlu diketahuinya sebelum menjawab. Hasilnya biasanya lebih tepat. Satu aturan penting: selalu periksa hasil AI sebelum Anda memakainya. Mulai hari ini, coba satu prompt untuk pekerjaan Anda."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "presenter": "presenter-hook.jpg",
+  "presenterEnd": "presenter-end.jpg",
+  "keys": [
+    "prompt",
+    "ringkas",
+    "perbaiki",
+    "jadwal",
+    "balas",
+    "tanya",
+    "periksa",
+    "mulai",
+    "waktu",
+    "ai"
+  ],
+  "scenes": [
+    {
+      "at": null,
+      "type": "presenter",
+      "img": "presenter-hook.jpg",
+      "label": "ABIDIN AI",
+      "head": "5 PROMPT AI<br>HEMAT WAKTU KERJA"
+    },
+    {
+      "at": "satu",
+      "type": "prompt",
+      "n": 1,
+      "title": "RINGKAS",
+      "text": "Ringkas teks ini menjadi 5 poin utama dengan bahasa sederhana:<br>[tempel teks]"
+    },
+    {
+      "at": "dua",
+      "type": "prompt",
+      "n": 2,
+      "title": "PERBAIKI TULISAN",
+      "text": "Bertindaklah sebagai editor. Perbaiki tulisan ini agar lebih jelas dan singkat, tanpa mengubah maksud:<br>[tulisan Anda]"
+    },
+    {
+      "at": "tiga",
+      "type": "prompt",
+      "n": 3,
+      "title": "ATUR JADWAL",
+      "text": "Urutkan daftar tugas ini dari yang paling penting dan buat jadwal kerja hari ini:<br>[daftar tugas]"
+    },
+    {
+      "at": "empat",
+      "type": "prompt",
+      "n": 4,
+      "title": "BALAS PESAN",
+      "text": "Tulis balasan email yang sopan dan singkat untuk pesan berikut:<br>[pesan]"
+    },
+    {
+      "at": "lima",
+      "type": "prompt",
+      "n": 5,
+      "title": "TANYA BALIK",
+      "text": "Sebelum menjawab, tanyakan dulu hal yang perlu kamu ketahui dari saya."
+    },
+    {
+      "at": "aturan",
+      "type": "check",
+      "label": "ATURAN PENTING",
+      "head": "SELALU PERIKSA<br>HASIL AI"
+    },
+    {
+      "at": "mulai",
+      "type": "presenter",
+      "img": "presenter-end.jpg",
+      "label": "ABIDIN AI",
+      "head": "COBA 1 PROMPT<br>HARI INI"
+    }
+  ]
+}
