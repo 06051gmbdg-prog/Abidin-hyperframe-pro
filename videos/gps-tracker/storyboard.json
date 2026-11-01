@@ -101,9 +101,11 @@
       "pillLabel": "CEK",
       "words": [
         "CEK LINK",
-        "DI KETERANGAN"
+        "DI",
+        "KETERANGAN"
       ],
-      "sub": "Mengandung link afiliasi"
+      "sub": "Mengandung link afiliasi",
+      "size": 150
     }
   ]
 }

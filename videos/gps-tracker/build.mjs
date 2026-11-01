@@ -77,7 +77,7 @@ S.forEach((sc, i) => {
   } else if (sc.type === "stat") {
     inner = `${bg}<div class="pill"><span>${esc(sc.pillLabel || "TIPS")} ${sc.n}</span></div><div id="${id}s" class="stat">${esc(sc.value)}</div><div id="${id}l" class="statl">${esc(sc.caption)}</div><div id="${id}x" class="stats">${esc(sc.sub || "")}</div>`;
   } else if (sc.type === "word") {
-    inner = `${bg}<div class="pill"><span>${esc(sc.pillLabel || "TIPS")} ${sc.n}</span></div>${sc.words.map((w, k) => `<div id="${id}w${k}" class="wd" style="top:${470 + k * 270}px;color:${k % 2 ? YEL : WHITE}">${esc(w)}</div>`).join("")}<div id="${id}x" class="stats" style="top:1330px">${esc(sc.sub || "")}</div>`;
+    inner = `${bg}<div class="pill"><span>${esc(sc.pillLabel || "TIPS")} ${sc.n}</span></div>${sc.words.map((w, k) => `<div id="${id}w${k}" class="wd" style="top:${470 + k * (sc.size ? 230 : 270)}px;color:${k % 2 ? YEL : WHITE}${sc.size ? `;font-size:${sc.size}px` : ""}">${esc(w)}</div>`).join("")}<div id="${id}x" class="stats" style="top:1330px">${esc(sc.sub || "")}</div>`;
   } else if (sc.type === "ui") {
     inner = `${bg}<div class="pill"><span>${esc(sc.pillLabel || "TIPS")} ${sc.n}</span></div><div class="ttl">${esc(sc.title)}</div>${sc.cards.map((c, k) => `<div id="${id}u${k}" class="wg" style="top:${(sc.top || 640) + k * ((sc.cardH || 290) + 30)}px;height:${sc.cardH || 290}px">${GLYPH[c.g] || ""}<span>${esc(c.t)}</span></div>`).join("")}`;
   } else if (sc.type === "check") {
