@@ -1,0 +1,716 @@
+[
+ {
+  "id": "w0",
+  "text": "Tagihan",
+  "start": 0.07,
+  "end": 0.395
+ },
+ {
+  "id": "w1",
+  "text": "listrik",
+  "start": 0.441,
+  "end": 0.743
+ },
+ {
+  "id": "w2",
+  "text": "naik",
+  "start": 0.813,
+  "end": 0.929
+ },
+ {
+  "id": "w3",
+  "text": "terus?",
+  "start": 0.987,
+  "end": 1.509
+ },
+ {
+  "id": "w4",
+  "text": "Ini",
+  "start": 1.892,
+  "end": 2.125
+ },
+ {
+  "id": "w5",
+  "text": "lima",
+  "start": 2.183,
+  "end": 2.392
+ },
+ {
+  "id": "w6",
+  "text": "cara",
+  "start": 2.438,
+  "end": 2.647
+ },
+ {
+  "id": "w7",
+  "text": "menghemat",
+  "start": 2.694,
+  "end": 3.065
+ },
+ {
+  "id": "w8",
+  "text": "listrik",
+  "start": 3.111,
+  "end": 3.402
+ },
+ {
+  "id": "w9",
+  "text": "di",
+  "start": 3.448,
+  "end": 3.495
+ },
+ {
+  "id": "w10",
+  "text": "rumah.",
+  "start": 3.529,
+  "end": 3.913
+ },
+ {
+  "id": "w11",
+  "text": "Satu.",
+  "start": 4.296,
+  "end": 4.888
+ },
+ {
+  "id": "w12",
+  "text": "AC.",
+  "start": 5.062,
+  "end": 5.735
+ },
+ {
+  "id": "w13",
+  "text": "Atur",
+  "start": 6.014,
+  "end": 6.327
+ },
+ {
+  "id": "w14",
+  "text": "suhunya",
+  "start": 6.385,
+  "end": 6.792
+ },
+ {
+  "id": "w15",
+  "text": "sekitar",
+  "start": 6.838,
+  "end": 7.187
+ },
+ {
+  "id": "w16",
+  "text": "dua",
+  "start": 7.245,
+  "end": 7.477
+ },
+ {
+  "id": "w17",
+  "text": "puluh",
+  "start": 7.523,
+  "end": 7.732
+ },
+ {
+  "id": "w18",
+  "text": "lima",
+  "start": 7.755,
+  "end": 7.953
+ },
+ {
+  "id": "w19",
+  "text": "derajat,",
+  "start": 7.999,
+  "end": 8.673
+ },
+ {
+  "id": "w20",
+  "text": "dan",
+  "start": 8.824,
+  "end": 8.986
+ },
+ {
+  "id": "w21",
+  "text": "bersihkan",
+  "start": 9.044,
+  "end": 9.52
+ },
+ {
+  "id": "w22",
+  "text": "filternya",
+  "start": 9.578,
+  "end": 10.089
+ },
+ {
+  "id": "w23",
+  "text": "secara",
+  "start": 10.147,
+  "end": 10.495
+ },
+ {
+  "id": "w24",
+  "text": "rutin.",
+  "start": 10.542,
+  "end": 11.134
+ },
+ {
+  "id": "w25",
+  "text": "Dua.",
+  "start": 11.517,
+  "end": 12.051
+ },
+ {
+  "id": "w26",
+  "text": "Cabut",
+  "start": 12.376,
+  "end": 12.736
+ },
+ {
+  "id": "w27",
+  "text": "charger.",
+  "start": 12.771,
+  "end": 13.398
+ },
+ {
+  "id": "w28",
+  "text": "Perangkat",
+  "start": 13.781,
+  "end": 14.176
+ },
+ {
+  "id": "w29",
+  "text": "yang",
+  "start": 14.234,
+  "end": 14.338
+ },
+ {
+  "id": "w30",
+  "text": "masih",
+  "start": 14.385,
+  "end": 14.629
+ },
+ {
+  "id": "w31",
+  "text": "tertancap",
+  "start": 14.663,
+  "end": 15.325
+ },
+ {
+  "id": "w32",
+  "text": "tetap",
+  "start": 15.383,
+  "end": 15.673
+ },
+ {
+  "id": "w33",
+  "text": "menyedot",
+  "start": 15.743,
+  "end": 16.138
+ },
+ {
+  "id": "w34",
+  "text": "listrik,",
+  "start": 16.184,
+  "end": 16.683
+ },
+ {
+  "id": "w35",
+  "text": "walau",
+  "start": 16.834,
+  "end": 17.055
+ },
+ {
+  "id": "w36",
+  "text": "tidak",
+  "start": 17.09,
+  "end": 17.299
+ },
+ {
+  "id": "w37",
+  "text": "dipakai.",
+  "start": 17.322,
+  "end": 17.961
+ },
+ {
+  "id": "w38",
+  "text": "Tiga.",
+  "start": 18.402,
+  "end": 18.947
+ },
+ {
+  "id": "w39",
+  "text": "Ganti",
+  "start": 19.273,
+  "end": 19.563
+ },
+ {
+  "id": "w40",
+  "text": "lampu.",
+  "start": 19.621,
+  "end": 20.108
+ },
+ {
+  "id": "w41",
+  "text": "Pakai",
+  "start": 20.352,
+  "end": 20.619
+ },
+ {
+  "id": "w42",
+  "text": "lampu",
+  "start": 20.654,
+  "end": 20.933
+ },
+ {
+  "id": "w43",
+  "text": "LED,",
+  "start": 20.991,
+  "end": 21.595
+ },
+ {
+  "id": "w44",
+  "text": "dan",
+  "start": 21.873,
+  "end": 22.024
+ },
+ {
+  "id": "w45",
+  "text": "matikan",
+  "start": 22.094,
+  "end": 22.535
+ },
+ {
+  "id": "w46",
+  "text": "lampu",
+  "start": 22.605,
+  "end": 22.906
+ },
+ {
+  "id": "w47",
+  "text": "di",
+  "start": 22.953,
+  "end": 23.023
+ },
+ {
+  "id": "w48",
+  "text": "ruangan",
+  "start": 23.081,
+  "end": 23.417
+ },
+ {
+  "id": "w49",
+  "text": "yang",
+  "start": 23.464,
+  "end": 23.58
+ },
+ {
+  "id": "w50",
+  "text": "kosong.",
+  "start": 23.615,
+  "end": 24.137
+ },
+ {
+  "id": "w51",
+  "text": "Empat.",
+  "start": 24.311,
+  "end": 24.81
+ },
+ {
+  "id": "w52",
+  "text": "Kulkas.",
+  "start": 25.136,
+  "end": 25.832
+ },
+ {
+  "id": "w53",
+  "text": "Cairkan",
+  "start": 26.215,
+  "end": 26.68
+ },
+ {
+  "id": "w54",
+  "text": "es",
+  "start": 26.773,
+  "end": 26.923
+ },
+ {
+  "id": "w55",
+  "text": "di",
+  "start": 26.993,
+  "end": 27.063
+ },
+ {
+  "id": "w56",
+  "text": "freezer",
+  "start": 27.132,
+  "end": 27.481
+ },
+ {
+  "id": "w57",
+  "text": "secara",
+  "start": 27.55,
+  "end": 27.829
+ },
+ {
+  "id": "w58",
+  "text": "berkala,",
+  "start": 27.876,
+  "end": 28.502
+ },
+ {
+  "id": "w59",
+  "text": "dan",
+  "start": 28.677,
+  "end": 28.839
+ },
+ {
+  "id": "w60",
+  "text": "jangan",
+  "start": 28.955,
+  "end": 29.338
+ },
+ {
+  "id": "w61",
+  "text": "buka",
+  "start": 29.42,
+  "end": 29.733
+ },
+ {
+  "id": "w62",
+  "text": "pintunya",
+  "start": 29.78,
+  "end": 30.279
+ },
+ {
+  "id": "w63",
+  "text": "terlalu",
+  "start": 30.36,
+  "end": 30.72
+ },
+ {
+  "id": "w64",
+  "text": "lama.",
+  "start": 30.766,
+  "end": 31.15
+ },
+ {
+  "id": "w65",
+  "text": "Lima.",
+  "start": 31.533,
+  "end": 31.985
+ },
+ {
+  "id": "w66",
+  "text": "Setrika",
+  "start": 32.311,
+  "end": 32.949
+ },
+ {
+  "id": "w67",
+  "text": "dan",
+  "start": 33.065,
+  "end": 33.239
+ },
+ {
+  "id": "w68",
+  "text": "dispenser.",
+  "start": 33.286,
+  "end": 33.982
+ },
+ {
+  "id": "w69",
+  "text": "Setrika",
+  "start": 34.365,
+  "end": 34.818
+ },
+ {
+  "id": "w70",
+  "text": "sekaligus",
+  "start": 34.876,
+  "end": 35.445
+ },
+ {
+  "id": "w71",
+  "text": "dalam",
+  "start": 35.561,
+  "end": 35.839
+ },
+ {
+  "id": "w72",
+  "text": "satu",
+  "start": 35.898,
+  "end": 36.118
+ },
+ {
+  "id": "w73",
+  "text": "waktu,",
+  "start": 36.153,
+  "end": 36.722
+ },
+ {
+  "id": "w74",
+  "text": "dan",
+  "start": 37,
+  "end": 37.151
+ },
+ {
+  "id": "w75",
+  "text": "matikan",
+  "start": 37.209,
+  "end": 37.604
+ },
+ {
+  "id": "w76",
+  "text": "dispenser",
+  "start": 37.662,
+  "end": 38.22
+ },
+ {
+  "id": "w77",
+  "text": "saat",
+  "start": 38.289,
+  "end": 38.487
+ },
+ {
+  "id": "w78",
+  "text": "tidak",
+  "start": 38.51,
+  "end": 38.719
+ },
+ {
+  "id": "w79",
+  "text": "dipakai.",
+  "start": 38.742,
+  "end": 39.346
+ },
+ {
+  "id": "w80",
+  "text": "Satu",
+  "start": 39.729,
+  "end": 40.019
+ },
+ {
+  "id": "w81",
+  "text": "hal",
+  "start": 40.077,
+  "end": 40.193
+ },
+ {
+  "id": "w82",
+  "text": "lagi:",
+  "start": 40.228,
+  "end": 40.727
+ },
+ {
+  "id": "w83",
+  "text": "korsleting",
+  "start": 40.936,
+  "end": 41.586
+ },
+ {
+  "id": "w84",
+  "text": "listrik",
+  "start": 41.656,
+  "end": 42.109
+ },
+ {
+  "id": "w85",
+  "text": "bisa",
+  "start": 42.26,
+  "end": 42.538
+ },
+ {
+  "id": "w86",
+  "text": "memicu",
+  "start": 42.596,
+  "end": 42.98
+ },
+ {
+  "id": "w87",
+  "text": "kebakaran.",
+  "start": 43.026,
+  "end": 43.734
+ },
+ {
+  "id": "w88",
+  "text": "Simpan",
+  "start": 44.245,
+  "end": 44.709
+ },
+ {
+  "id": "w89",
+  "text": "dokumen",
+  "start": 44.768,
+  "end": 45.22
+ },
+ {
+  "id": "w90",
+  "text": "penting",
+  "start": 45.302,
+  "end": 45.662
+ },
+ {
+  "id": "w91",
+  "text": "di",
+  "start": 45.708,
+  "end": 45.766
+ },
+ {
+  "id": "w92",
+  "text": "tas",
+  "start": 45.836,
+  "end": 46.045
+ },
+ {
+  "id": "w93",
+  "text": "penyimpan",
+  "start": 46.114,
+  "end": 46.637
+ },
+ {
+  "id": "w94",
+  "text": "yang",
+  "start": 46.718,
+  "end": 46.857
+ },
+ {
+  "id": "w95",
+  "text": "diklaim",
+  "start": 46.892,
+  "end": 47.333
+ },
+ {
+  "id": "w96",
+  "text": "tahan",
+  "start": 47.542,
+  "end": 47.867
+ },
+ {
+  "id": "w97",
+  "text": "api",
+  "start": 47.925,
+  "end": 48.146
+ },
+ {
+  "id": "w98",
+  "text": "dan",
+  "start": 48.192,
+  "end": 48.309
+ },
+ {
+  "id": "w99",
+  "text": "air.",
+  "start": 48.39,
+  "end": 48.889
+ },
+ {
+  "id": "w100",
+  "text": "Linknya",
+  "start": 49.272,
+  "end": 49.679
+ },
+ {
+  "id": "w101",
+  "text": "ada",
+  "start": 49.737,
+  "end": 49.934
+ },
+ {
+  "id": "w102",
+  "text": "di",
+  "start": 49.98,
+  "end": 50.073
+ },
+ {
+  "id": "w103",
+  "text": "keterangan",
+  "start": 50.131,
+  "end": 50.724
+ },
+ {
+  "id": "w104",
+  "text": "video.",
+  "start": 50.805,
+  "end": 51.467
+ },
+ {
+  "id": "w105",
+  "text": "Mulai",
+  "start": 51.792,
+  "end": 52.105
+ },
+ {
+  "id": "w106",
+  "text": "hari",
+  "start": 52.152,
+  "end": 52.361
+ },
+ {
+  "id": "w107",
+  "text": "ini,",
+  "start": 52.407,
+  "end": 52.593
+ },
+ {
+  "id": "w108",
+  "text": "coba",
+  "start": 52.628,
+  "end": 52.848
+ },
+ {
+  "id": "w109",
+  "text": "satu",
+  "start": 52.883,
+  "end": 53.046
+ },
+ {
+  "id": "w110",
+  "text": "kebiasaan",
+  "start": 53.08,
+  "end": 53.51
+ },
+ {
+  "id": "w111",
+  "text": "dulu.",
+  "start": 53.556,
+  "end": 53.916
+ },
+ {
+  "id": "w112",
+  "text": "Tagihan",
+  "start": 54.09,
+  "end": 54.462
+ },
+ {
+  "id": "w113",
+  "text": "listrik",
+  "start": 54.52,
+  "end": 54.845
+ },
+ {
+  "id": "w114",
+  "text": "Anda",
+  "start": 54.915,
+  "end": 55.101
+ },
+ {
+  "id": "w115",
+  "text": "akan",
+  "start": 55.124,
+  "end": 55.321
+ },
+ {
+  "id": "w116",
+  "text": "terasa",
+  "start": 55.379,
+  "end": 55.681
+ },
+ {
+  "id": "w117",
+  "text": "lebih",
+  "start": 55.716,
+  "end": 55.902
+ },
+ {
+  "id": "w118",
+  "text": "ringan.",
+  "start": 55.925,
+  "end": 56.366
+ }
+]
