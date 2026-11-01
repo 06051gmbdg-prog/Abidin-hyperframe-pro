@@ -1,0 +1,820 @@
+{
+ "voiceId": "nPczCjzI2devNBz1zQrb",
+ "modelId": "eleven_multilingual_v2",
+ "scenes": [
+  {
+   "id": "vo",
+   "text": "Motor atau mobil Anda bisa dilacak kalau hilang? Bisa, dengan GPS tracker. Tapi ada beberapa hal yang perlu Anda tahu dulu. Alat ini menerima sinyal satelit untuk mengetahui posisinya, lalu mengirim lokasinya ke ponsel Anda lewat jaringan seluler. Jadi posisi kendaraan bisa dilihat di peta. Ada empat hal yang perlu dicek. Lokasi: akurasinya bergantung pada kondisi sinyal. Jaringan: biasanya butuh kartu SIM aktif. Daya: periksa daya tahan baterainya. Dan aplikasi: pastikan mudah dipakai. Contohnya GPS tracker mini ini, harganya sekitar seratus tiga puluh empat ribu rupiah di listing saat ini. Cek dulu spesifikasi, kebutuhan kartu SIM, dan ulasan pembeli sebelum membeli. Link-nya ada di keterangan video. Satu hal penting: gunakan hanya untuk kendaraan milik Anda sendiri. Melacak orang lain tanpa izin melanggar privasi. Cek link di keterangan, dan ikuti ABIDIN AI untuk tips berikutnya.",
+   "wav": "vo.wav",
+   "duration": 61.161,
+   "speechStart": 0.035,
+   "speechEnd": 60.953,
+   "words": [
+    {
+     "id": "w0",
+     "text": "Motor",
+     "start": 0.035,
+     "end": 0.453
+    },
+    {
+     "id": "w1",
+     "text": "atau",
+     "start": 0.511,
+     "end": 0.697
+    },
+    {
+     "id": "w2",
+     "text": "mobil",
+     "start": 0.743,
+     "end": 1.033
+    },
+    {
+     "id": "w3",
+     "text": "Anda",
+     "start": 1.103,
+     "end": 1.265
+    },
+    {
+     "id": "w4",
+     "text": "bisa",
+     "start": 1.324,
+     "end": 1.533
+    },
+    {
+     "id": "w5",
+     "text": "dilacak",
+     "start": 1.579,
+     "end": 2.101
+    },
+    {
+     "id": "w6",
+     "text": "kalau",
+     "start": 2.148,
+     "end": 2.345
+    },
+    {
+     "id": "w7",
+     "text": "hilang?",
+     "start": 2.368,
+     "end": 2.914
+    },
+    {
+     "id": "w8",
+     "text": "Bisa,",
+     "start": 3.239,
+     "end": 3.704
+    },
+    {
+     "id": "w9",
+     "text": "dengan",
+     "start": 3.773,
+     "end": 3.994
+    },
+    {
+     "id": "w10",
+     "text": "GPS",
+     "start": 4.052,
+     "end": 4.412
+    },
+    {
+     "id": "w11",
+     "text": "tracker.",
+     "start": 4.447,
+     "end": 4.934
+    },
+    {
+     "id": "w12",
+     "text": "Tapi",
+     "start": 5.178,
+     "end": 5.433
+    },
+    {
+     "id": "w13",
+     "text": "ada",
+     "start": 5.468,
+     "end": 5.573
+    },
+    {
+     "id": "w14",
+     "text": "beberapa",
+     "start": 5.619,
+     "end": 6.002
+    },
+    {
+     "id": "w15",
+     "text": "hal",
+     "start": 6.037,
+     "end": 6.165
+    },
+    {
+     "id": "w16",
+     "text": "yang",
+     "start": 6.2,
+     "end": 6.293
+    },
+    {
+     "id": "w17",
+     "text": "perlu",
+     "start": 6.339,
+     "end": 6.49
+    },
+    {
+     "id": "w18",
+     "text": "Anda",
+     "start": 6.536,
+     "end": 6.676
+    },
+    {
+     "id": "w19",
+     "text": "tahu",
+     "start": 6.722,
+     "end": 6.92
+    },
+    {
+     "id": "w20",
+     "text": "dulu.",
+     "start": 6.954,
+     "end": 7.407
+    },
+    {
+     "id": "w21",
+     "text": "Alat",
+     "start": 7.848,
+     "end": 8.185
+    },
+    {
+     "id": "w22",
+     "text": "ini",
+     "start": 8.278,
+     "end": 8.475
+    },
+    {
+     "id": "w23",
+     "text": "menerima",
+     "start": 8.533,
+     "end": 8.951
+    },
+    {
+     "id": "w24",
+     "text": "sinyal",
+     "start": 9.033,
+     "end": 9.369
+    },
+    {
+     "id": "w25",
+     "text": "satelit",
+     "start": 9.404,
+     "end": 9.868
+    },
+    {
+     "id": "w26",
+     "text": "untuk",
+     "start": 9.961,
+     "end": 10.159
+    },
+    {
+     "id": "w27",
+     "text": "mengetahui",
+     "start": 10.205,
+     "end": 10.67
+    },
+    {
+     "id": "w28",
+     "text": "posisinya,",
+     "start": 10.716,
+     "end": 11.482
+    },
+    {
+     "id": "w29",
+     "text": "lalu",
+     "start": 11.807,
+     "end": 12.051
+    },
+    {
+     "id": "w30",
+     "text": "mengirim",
+     "start": 12.109,
+     "end": 12.504
+    },
+    {
+     "id": "w31",
+     "text": "lokasinya",
+     "start": 12.562,
+     "end": 13.061
+    },
+    {
+     "id": "w32",
+     "text": "ke",
+     "start": 13.119,
+     "end": 13.189
+    },
+    {
+     "id": "w33",
+     "text": "ponsel",
+     "start": 13.247,
+     "end": 13.63
+    },
+    {
+     "id": "w34",
+     "text": "Anda",
+     "start": 13.7,
+     "end": 14.06
+    },
+    {
+     "id": "w35",
+     "text": "lewat",
+     "start": 14.234,
+     "end": 14.536
+    },
+    {
+     "id": "w36",
+     "text": "jaringan",
+     "start": 14.583,
+     "end": 14.908
+    },
+    {
+     "id": "w37",
+     "text": "seluler.",
+     "start": 14.966,
+     "end": 15.5
+    },
+    {
+     "id": "w38",
+     "text": "Jadi",
+     "start": 16.011,
+     "end": 16.22
+    },
+    {
+     "id": "w39",
+     "text": "posisi",
+     "start": 16.278,
+     "end": 16.614
+    },
+    {
+     "id": "w40",
+     "text": "kendaraan",
+     "start": 16.661,
+     "end": 17.195
+    },
+    {
+     "id": "w41",
+     "text": "bisa",
+     "start": 17.265,
+     "end": 17.45
+    },
+    {
+     "id": "w42",
+     "text": "dilihat",
+     "start": 17.497,
+     "end": 17.764
+    },
+    {
+     "id": "w43",
+     "text": "di",
+     "start": 17.787,
+     "end": 17.857
+    },
+    {
+     "id": "w44",
+     "text": "peta.",
+     "start": 17.915,
+     "end": 18.391
+    },
+    {
+     "id": "w45",
+     "text": "Ada",
+     "start": 18.832,
+     "end": 19.076
+    },
+    {
+     "id": "w46",
+     "text": "empat",
+     "start": 19.099,
+     "end": 19.378
+    },
+    {
+     "id": "w47",
+     "text": "hal",
+     "start": 19.436,
+     "end": 19.61
+    },
+    {
+     "id": "w48",
+     "text": "yang",
+     "start": 19.668,
+     "end": 19.772
+    },
+    {
+     "id": "w49",
+     "text": "perlu",
+     "start": 19.819,
+     "end": 20.028
+    },
+    {
+     "id": "w50",
+     "text": "dicek.",
+     "start": 20.074,
+     "end": 20.539
+    },
+    {
+     "id": "w51",
+     "text": "Lokasi:",
+     "start": 20.98,
+     "end": 21.746
+    },
+    {
+     "id": "w52",
+     "text": "akurasinya",
+     "start": 21.99,
+     "end": 22.849
+    },
+    {
+     "id": "w53",
+     "text": "bergantung",
+     "start": 22.919,
+     "end": 23.499
+    },
+    {
+     "id": "w54",
+     "text": "pada",
+     "start": 23.545,
+     "end": 23.731
+    },
+    {
+     "id": "w55",
+     "text": "kondisi",
+     "start": 23.778,
+     "end": 24.138
+    },
+    {
+     "id": "w56",
+     "text": "sinyal.",
+     "start": 24.184,
+     "end": 24.648
+    },
+    {
+     "id": "w57",
+     "text": "Jaringan:",
+     "start": 25.09,
+     "end": 25.809
+    },
+    {
+     "id": "w58",
+     "text": "biasanya",
+     "start": 25.937,
+     "end": 26.448
+    },
+    {
+     "id": "w59",
+     "text": "butuh",
+     "start": 26.506,
+     "end": 26.785
+    },
+    {
+     "id": "w60",
+     "text": "kartu",
+     "start": 26.808,
+     "end": 27.075
+    },
+    {
+     "id": "w61",
+     "text": "SIM",
+     "start": 27.133,
+     "end": 27.272
+    },
+    {
+     "id": "w62",
+     "text": "aktif.",
+     "start": 27.388,
+     "end": 27.934
+    },
+    {
+     "id": "w63",
+     "text": "Daya:",
+     "start": 28.317,
+     "end": 28.967
+    },
+    {
+     "id": "w64",
+     "text": "periksa",
+     "start": 29.095,
+     "end": 29.478
+    },
+    {
+     "id": "w65",
+     "text": "daya",
+     "start": 29.559,
+     "end": 29.757
+    },
+    {
+     "id": "w66",
+     "text": "tahan",
+     "start": 29.815,
+     "end": 30.07
+    },
+    {
+     "id": "w67",
+     "text": "baterainya.",
+     "start": 30.151,
+     "end": 30.871
+    },
+    {
+     "id": "w68",
+     "text": "Dan",
+     "start": 31.115,
+     "end": 31.278
+    },
+    {
+     "id": "w69",
+     "text": "aplikasi:",
+     "start": 31.336,
+     "end": 32.125
+    },
+    {
+     "id": "w70",
+     "text": "pastikan",
+     "start": 32.276,
+     "end": 32.706
+    },
+    {
+     "id": "w71",
+     "text": "mudah",
+     "start": 32.752,
+     "end": 32.973
+    },
+    {
+     "id": "w72",
+     "text": "dipakai.",
+     "start": 32.996,
+     "end": 33.588
+    },
+    {
+     "id": "w73",
+     "text": "Contohnya",
+     "start": 33.867,
+     "end": 34.482
+    },
+    {
+     "id": "w74",
+     "text": "GPS",
+     "start": 34.575,
+     "end": 34.923
+    },
+    {
+     "id": "w75",
+     "text": "tracker",
+     "start": 34.981,
+     "end": 35.26
+    },
+    {
+     "id": "w76",
+     "text": "mini",
+     "start": 35.318,
+     "end": 35.515
+    },
+    {
+     "id": "w77",
+     "text": "ini,",
+     "start": 35.562,
+     "end": 35.956
+    },
+    {
+     "id": "w78",
+     "text": "harganya",
+     "start": 36.131,
+     "end": 36.63
+    },
+    {
+     "id": "w79",
+     "text": "sekitar",
+     "start": 36.688,
+     "end": 37.094
+    },
+    {
+     "id": "w80",
+     "text": "seratus",
+     "start": 37.21,
+     "end": 37.698
+    },
+    {
+     "id": "w81",
+     "text": "tiga",
+     "start": 37.744,
+     "end": 37.988
+    },
+    {
+     "id": "w82",
+     "text": "puluh",
+     "start": 38.035,
+     "end": 38.325
+    },
+    {
+     "id": "w83",
+     "text": "empat",
+     "start": 38.348,
+     "end": 38.592
+    },
+    {
+     "id": "w84",
+     "text": "ribu",
+     "start": 38.65,
+     "end": 38.836
+    },
+    {
+     "id": "w85",
+     "text": "rupiah",
+     "start": 38.859,
+     "end": 39.405
+    },
+    {
+     "id": "w86",
+     "text": "di",
+     "start": 39.614,
+     "end": 39.73
+    },
+    {
+     "id": "w87",
+     "text": "listing",
+     "start": 39.788,
+     "end": 40.159
+    },
+    {
+     "id": "w88",
+     "text": "saat",
+     "start": 40.206,
+     "end": 40.391
+    },
+    {
+     "id": "w89",
+     "text": "ini.",
+     "start": 40.461,
+     "end": 40.786
+    },
+    {
+     "id": "w90",
+     "text": "Cek",
+     "start": 41.065,
+     "end": 41.285
+    },
+    {
+     "id": "w91",
+     "text": "dulu",
+     "start": 41.355,
+     "end": 41.541
+    },
+    {
+     "id": "w92",
+     "text": "spesifikasi,",
+     "start": 41.576,
+     "end": 42.644
+    },
+    {
+     "id": "w93",
+     "text": "kebutuhan",
+     "start": 42.772,
+     "end": 43.271
+    },
+    {
+     "id": "w94",
+     "text": "kartu",
+     "start": 43.329,
+     "end": 43.573
+    },
+    {
+     "id": "w95",
+     "text": "SIM,",
+     "start": 43.631,
+     "end": 44.083
+    },
+    {
+     "id": "w96",
+     "text": "dan",
+     "start": 44.258,
+     "end": 44.409
+    },
+    {
+     "id": "w97",
+     "text": "ulasan",
+     "start": 44.478,
+     "end": 44.85
+    },
+    {
+     "id": "w98",
+     "text": "pembeli",
+     "start": 44.919,
+     "end": 45.256
+    },
+    {
+     "id": "w99",
+     "text": "sebelum",
+     "start": 45.314,
+     "end": 45.593
+    },
+    {
+     "id": "w100",
+     "text": "membeli.",
+     "start": 45.616,
+     "end": 46.115
+    },
+    {
+     "id": "w101",
+     "text": "Link-nya",
+     "start": 46.498,
+     "end": 46.974
+    },
+    {
+     "id": "w102",
+     "text": "ada",
+     "start": 47.033,
+     "end": 47.241
+    },
+    {
+     "id": "w103",
+     "text": "di",
+     "start": 47.288,
+     "end": 47.346
+    },
+    {
+     "id": "w104",
+     "text": "keterangan",
+     "start": 47.392,
+     "end": 47.776
+    },
+    {
+     "id": "w105",
+     "text": "video.",
+     "start": 47.834,
+     "end": 48.344
+    },
+    {
+     "id": "w106",
+     "text": "Satu",
+     "start": 48.553,
+     "end": 48.867
+    },
+    {
+     "id": "w107",
+     "text": "hal",
+     "start": 48.925,
+     "end": 49.053
+    },
+    {
+     "id": "w108",
+     "text": "penting:",
+     "start": 49.111,
+     "end": 49.68
+    },
+    {
+     "id": "w109",
+     "text": "gunakan",
+     "start": 49.854,
+     "end": 50.423
+    },
+    {
+     "id": "w110",
+     "text": "hanya",
+     "start": 50.516,
+     "end": 50.841
+    },
+    {
+     "id": "w111",
+     "text": "untuk",
+     "start": 50.922,
+     "end": 51.166
+    },
+    {
+     "id": "w112",
+     "text": "kendaraan",
+     "start": 51.189,
+     "end": 51.63
+    },
+    {
+     "id": "w113",
+     "text": "milik",
+     "start": 51.688,
+     "end": 51.909
+    },
+    {
+     "id": "w114",
+     "text": "Anda",
+     "start": 51.978,
+     "end": 52.118
+    },
+    {
+     "id": "w115",
+     "text": "sendiri.",
+     "start": 52.164,
+     "end": 52.698
+    },
+    {
+     "id": "w116",
+     "text": "Melacak",
+     "start": 52.977,
+     "end": 53.464
+    },
+    {
+     "id": "w117",
+     "text": "orang",
+     "start": 53.546,
+     "end": 53.79
+    },
+    {
+     "id": "w118",
+     "text": "lain",
+     "start": 53.848,
+     "end": 54.138
+    },
+    {
+     "id": "w119",
+     "text": "tanpa",
+     "start": 54.207,
+     "end": 54.544
+    },
+    {
+     "id": "w120",
+     "text": "izin",
+     "start": 54.614,
+     "end": 54.927
+    },
+    {
+     "id": "w121",
+     "text": "melanggar",
+     "start": 54.997,
+     "end": 55.334
+    },
+    {
+     "id": "w122",
+     "text": "privasi.",
+     "start": 55.403,
+     "end": 56.123
+    },
+    {
+     "id": "w123",
+     "text": "Cek",
+     "start": 56.506,
+     "end": 56.785
+    },
+    {
+     "id": "w124",
+     "text": "link",
+     "start": 56.901,
+     "end": 57.098
+    },
+    {
+     "id": "w125",
+     "text": "di",
+     "start": 57.133,
+     "end": 57.191
+    },
+    {
+     "id": "w126",
+     "text": "keterangan,",
+     "start": 57.238,
+     "end": 57.911
+    },
+    {
+     "id": "w127",
+     "text": "dan",
+     "start": 58.085,
+     "end": 58.248
+    },
+    {
+     "id": "w128",
+     "text": "ikuti",
+     "start": 58.306,
+     "end": 58.701
+    },
+    {
+     "id": "w129",
+     "text": "ABIDIN",
+     "start": 58.782,
+     "end": 59.211
+    },
+    {
+     "id": "w130",
+     "text": "AI",
+     "start": 59.327,
+     "end": 59.676
+    },
+    {
+     "id": "w131",
+     "text": "untuk",
+     "start": 59.769,
+     "end": 60.001
+    },
+    {
+     "id": "w132",
+     "text": "tips",
+     "start": 60.047,
+     "end": 60.279
+    },
+    {
+     "id": "w133",
+     "text": "berikutnya.",
+     "start": 60.349,
+     "end": 60.953
+    }
+   ]
+  }
+ ]
+}
