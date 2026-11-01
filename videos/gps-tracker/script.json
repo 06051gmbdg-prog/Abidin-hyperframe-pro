@@ -1,0 +1,21 @@
+{
+  "slug": "gps-tracker",
+  "mode": "tutorial",
+  "voiceId": "nPczCjzI2devNBz1zQrb",
+  "modelId": "eleven_multilingual_v2",
+  "language": "id",
+  "seed": 42,
+  "voiceSettings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25,
+    "speed": 1.0,
+    "use_speaker_boost": true
+  },
+  "scenes": [
+    {
+      "id": "vo",
+      "text": "Motor atau mobil Anda bisa dilacak kalau hilang? Bisa, dengan GPS tracker. Tapi ada beberapa hal yang perlu Anda tahu dulu. Alat ini menerima sinyal satelit untuk mengetahui posisinya, lalu mengirim lokasinya ke ponsel Anda lewat jaringan seluler. Jadi posisi kendaraan bisa dilihat di peta. Ada empat hal yang perlu dicek. Lokasi: akurasinya bergantung pada kondisi sinyal. Jaringan: biasanya butuh kartu SIM aktif. Daya: periksa daya tahan baterainya. Dan aplikasi: pastikan mudah dipakai. Contohnya GPS tracker mini ini, harganya sekitar seratus tiga puluh empat ribu rupiah di listing saat ini. Cek dulu spesifikasi, kebutuhan kartu SIM, dan ulasan pembeli sebelum membeli. Link-nya ada di keterangan video. Satu hal penting: gunakan hanya untuk kendaraan milik Anda sendiri. Melacak orang lain tanpa izin melanggar privasi. Cek link di keterangan, dan ikuti ABIDIN AI untuk tips berikutnya."
+    }
+  ]
+}

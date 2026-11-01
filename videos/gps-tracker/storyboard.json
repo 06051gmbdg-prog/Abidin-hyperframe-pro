@@ -1,0 +1,109 @@
+{
+  "hookEnd": "alat",
+  "endStart": "satu",
+  "endStopAt": "cek",
+  "presenterImage": "presenter-half.png",
+  "keys": [
+    "gps",
+    "tracker",
+    "lacak",
+    "dilacak",
+    "lokasi",
+    "jaringan",
+    "daya",
+    "aplikasi",
+    "sim",
+    "link",
+    "privasi",
+    "hilang",
+    "satelit"
+  ],
+  "scenes": [
+    {
+      "at": null,
+      "type": "presenter",
+      "clip": "hook.mp4",
+      "img": "presenter-half.png",
+      "label": "ABIDIN AI",
+      "head": "KENDARAAN<br>BISA DILACAK?"
+    },
+    {
+      "at": "alat",
+      "type": "photo",
+      "img": "parkir.png",
+      "label": "ABIDIN AI",
+      "head": "GPS TRACKER"
+    },
+    {
+      "at": "empat",
+      "type": "ui",
+      "pillLabel": "PERIKSA",
+      "n": "4 HAL",
+      "title": "CEK DULU",
+      "cardH": 235,
+      "top": 520,
+      "overlays": [
+        {
+          "at": "lokasi"
+        },
+        {
+          "at": "jaringan"
+        },
+        {
+          "at": "daya"
+        },
+        {
+          "at": "aplikasi"
+        }
+      ],
+      "cards": [
+        {
+          "g": "pin",
+          "t": "LOKASI"
+        },
+        {
+          "g": "signal",
+          "t": "JARINGAN / SIM"
+        },
+        {
+          "g": "battery",
+          "t": "DAYA BATERAI"
+        },
+        {
+          "g": "phone",
+          "t": "APLIKASI"
+        }
+      ]
+    },
+    {
+      "at": "contohnya",
+      "type": "product",
+      "img": "gps-produk.png",
+      "name": "GPS TRACKER MINI",
+      "lines": [
+        "Harga di listing: Rp134.000 (cek lagi)",
+        "Cek spesifikasi & kartu SIM"
+      ],
+      "label": "ABIDIN AI"
+    },
+    {
+      "at": "satu",
+      "type": "presenter",
+      "clip": "end.mp4",
+      "img": "presenter-half.png",
+      "label": "ABIDIN AI",
+      "head": "HANYA UNTUK<br>KENDARAAN SENDIRI"
+    },
+    {
+      "at": "cek",
+      "type": "word",
+      "n": "",
+      "pillLabel": "CEK",
+      "words": [
+        "CEK LINK",
+        "DI KETERANGAN"
+      ],
+      "sub": "Mengandung link afiliasi"
+    }
+  ]
+}
