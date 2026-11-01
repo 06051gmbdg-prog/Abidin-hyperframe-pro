@@ -1,7 +1,7 @@
 {
   "hookEnd": "satu",
   "endStart": "mulai",
-  "presenterImage": "presenter.png",
+  "presenterImage": "presenter-studio.png",
   "keys": [
     "listrik",
     "hemat",
@@ -28,7 +28,7 @@
       "at": null,
       "type": "presenter",
       "clip": "hook.mp4",
-      "img": "presenter.png",
+      "img": "presenter-studio.png",
       "label": "ABIDIN AI",
       "head": "5 CARA<br>HEMAT LISTRIK"
     },
@@ -86,7 +86,7 @@
       "at": "mulai",
       "type": "presenter",
       "clip": "end.mp4",
-      "img": "presenter.png",
+      "img": "presenter-studio.png",
       "label": "ABIDIN AI",
       "head": "COBA 1 KEBIASAAN<br>HARI INI"
     }
