@@ -83,16 +83,6 @@
       ]
     },
     {
-      "at": "bonus",
-      "type": "product",
-      "name": "TAS DOKUMEN TAHAN API & AIR",
-      "lines": [
-        "Tempat paspor & dokumen penting",
-        "Tahan api & air"
-      ],
-      "label": "ABIDIN AI"
-    },
-    {
       "at": "mulai",
       "type": "presenter",
       "clip": "end.mp4",
