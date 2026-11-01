@@ -14,7 +14,10 @@
     "setrika",
     "dispenser",
     "ringan",
-    "kebiasaan"
+    "kebiasaan",
+    "korsleting",
+    "kebakaran",
+    "dokumen"
   ],
   "scenes": [
     {
@@ -64,6 +67,16 @@
       "title": "SETRIKA &amp; DISPENSER",
       "text": "Setrika sekaligus<br>Matikan dispenser saat tak dipakai",
       "pillLabel": "TIPS"
+    },
+    {
+      "at": "korsleting",
+      "type": "product",
+      "label": "ABIDIN AI",
+      "name": "TAS DOKUMEN TAHAN API & AIR",
+      "lines": [
+        "Simpan paspor & dokumen penting",
+        "Diklaim tahan api & air (menurut penjual)"
+      ]
     },
     {
       "at": "mulai",
