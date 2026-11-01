@@ -1,0 +1,108 @@
+{
+  "hookEnd": "satu",
+  "endStart": "mulai",
+  "presenterImage": "presenter-half.png",
+  "keys": [
+    "listrik",
+    "hemat",
+    "menghemat",
+    "ac",
+    "cabut",
+    "charger",
+    "led",
+    "kulkas",
+    "setrika",
+    "dispenser",
+    "ringan",
+    "kebiasaan",
+    "korsleting",
+    "kebakaran",
+    "dokumen",
+    "bonus",
+    "dokumen",
+    "paspor",
+    "tahan"
+  ],
+  "scenes": [
+    {
+      "at": null,
+      "type": "presenter",
+      "clip": "hook.mp4",
+      "img": "presenter-half.png",
+      "label": "ABIDIN AI",
+      "head": "5 CARA<br>HEMAT LISTRIK"
+    },
+    {
+      "at": "satu",
+      "type": "stat",
+      "n": 1,
+      "pillLabel": "TIPS",
+      "value": "25°C",
+      "caption": "SUHU AC ANJURAN ESDM",
+      "sub": "Bersihkan filter secara rutin"
+    },
+    {
+      "at": "cabut",
+      "type": "word",
+      "n": 2,
+      "pillLabel": "TIPS",
+      "words": [
+        "CABUT",
+        "CHARGER",
+        "TAK DIPAKAI"
+      ],
+      "sub": "Standby tetap menyedot listrik"
+    },
+    {
+      "at": "ganti",
+      "type": "ui",
+      "n": 3,
+      "pillLabel": "TIPS",
+      "title": "GANTI LAMPU",
+      "cards": [
+        {
+          "g": "bulb",
+          "t": "Pakai lampu LED"
+        },
+        {
+          "g": "toggle",
+          "t": "Matikan di ruang kosong"
+        }
+      ]
+    },
+    {
+      "at": "kulkas",
+      "type": "prompt",
+      "n": 4,
+      "title": "RAWAT KULKAS",
+      "text": "Cairkan es freezer berkala<br>Jangan lama buka pintu",
+      "pillLabel": "TIPS"
+    },
+    {
+      "at": "setrika",
+      "type": "prompt",
+      "n": 5,
+      "title": "SETRIKA & DISPENSER",
+      "text": "Setrika sekaligus<br>Matikan dispenser saat tak dipakai",
+      "pillLabel": "TIPS"
+    },
+    {
+      "at": "korsleting",
+      "type": "product",
+      "label": "ABIDIN AI",
+      "name": "TAS DOKUMEN TAHAN API & AIR",
+      "lines": [
+        "Tempat paspor & dokumen penting",
+        "Tahan api & air"
+      ]
+    },
+    {
+      "at": "mulai",
+      "type": "presenter",
+      "clip": "end.mp4",
+      "img": "presenter-half.png",
+      "label": "ABIDIN AI",
+      "head": "COBA 1 KEBIASAAN<br>HARI INI"
+    }
+  ]
+}

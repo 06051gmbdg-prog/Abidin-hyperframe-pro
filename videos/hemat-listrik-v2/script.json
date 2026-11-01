@@ -1,0 +1,21 @@
+{
+  "slug": "hemat-listrik-v2",
+  "mode": "tutorial",
+  "voiceId": "nPczCjzI2devNBz1zQrb",
+  "modelId": "eleven_multilingual_v2",
+  "language": "id",
+  "seed": 42,
+  "voiceSettings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25,
+    "speed": 1.0,
+    "use_speaker_boost": true
+  },
+  "scenes": [
+    {
+      "id": "vo",
+      "text": "Tagihan listrik naik terus? Ini lima cara menghemat listrik di rumah. Satu. AC. Atur suhunya sekitar dua puluh lima derajat, dan bersihkan filternya secara rutin. Dua. Cabut charger. Perangkat yang masih tertancap tetap menyedot listrik, walau tidak dipakai. Tiga. Ganti lampu. Pakai lampu LED, dan matikan lampu di ruangan yang kosong. Empat. Kulkas. Cairkan es di freezer secara berkala, dan jangan buka pintunya terlalu lama. Lima. Setrika dan dispenser. Setrika sekaligus dalam satu waktu, dan matikan dispenser saat tidak dipakai. Satu hal lagi: korsleting listrik bisa memicu kebakaran. Simpan dokumen penting di tas penyimpan yang diklaim tahan api dan air. Linknya ada di keterangan video. Mulai hari ini, coba satu kebiasaan dulu. Tagihan listrik Anda akan terasa lebih ringan."
+    }
+  ]
+}
