@@ -127,6 +127,3 @@ documents the interface your own assets plug into.
 
 Built while shipping short-form video in production. Every rule in here exists because something failed
 first. MIT — do what you like with it.
-
-## abidin-ai-remotion/
-Starter Remotion 9:16 (ABIDIN AI Remotion Studio) untuk episode dokumenter/presenter + modul afiliasi. Jalankan di folder itu: `npm install && npm run dev`. Letakkan klip di `public/assets/` (lihat `abidin-ai-remotion/README.md`). Foto wajah pribadi jangan dimasukkan ke repo publik.
