@@ -49,9 +49,9 @@
       "words": [
         "CABUT",
         "CHARGER",
-        "TAK DIPAKAI"
+        "STANDBY"
       ],
-      "sub": "Standby tetap menyedot listrik"
+      "sub": "Tetap menyedot listrik walau tak dipakai"
     },
     {
       "at": "ganti",
