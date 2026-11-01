@@ -81,7 +81,7 @@ S.forEach((sc, i) => {
   } else if (sc.type === "product") {
     inner = `${bg}<div class="pill"><span>ALAT BANTU</span></div><div class="pname">${esc(sc.name)}</div><div class="plist">${(sc.lines || []).map((l) => `<div>${esc(l)}</div>`).join("")}</div><div class="plink">Link di keterangan video</div><div class="pdis">Mengandung link afiliasi</div>`;
   }
-  els.push(`<div id="${id}" class="scn footage">${inner}<div class="lab">${esc(sc.label || "ABIDIN AI")}</div></div>`);
+  els.push(`<div id="${id}" class="scn footage">${inner}${SB.watermark ? `<div class="lab">${esc(sc.label || "ABIDIN AI")}</div>` : ""}</div>`);
   tl.push(`tl.fromTo("#${id}",{autoAlpha:0},{autoAlpha:1,duration:${first ? 0.01 : 0.12},ease:"none"},${at0});`);
   tl.push(`tl.fromTo("#${id}",{scale:${first ? 1 : 1.04}},{scale:1,duration:0.25,ease:"power3.out"},${at0});`);
   if (i + 1 < S.length) {
