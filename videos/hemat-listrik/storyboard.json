@@ -1,0 +1,77 @@
+{
+  "hookEnd": "satu",
+  "endStart": "mulai",
+  "presenterImage": "presenter.png",
+  "keys": [
+    "listrik",
+    "hemat",
+    "menghemat",
+    "ac",
+    "cabut",
+    "charger",
+    "led",
+    "kulkas",
+    "setrika",
+    "dispenser",
+    "ringan",
+    "kebiasaan"
+  ],
+  "scenes": [
+    {
+      "at": null,
+      "type": "presenter",
+      "clip": "hook.mp4",
+      "img": "presenter.png",
+      "label": "ABIDIN AI",
+      "head": "5 CARA<br>HEMAT LISTRIK"
+    },
+    {
+      "at": "satu",
+      "type": "prompt",
+      "n": 1,
+      "title": "ATUR AC",
+      "text": "Suhu sekitar 25°C<br>Bersihkan filter rutin",
+      "pillLabel": "TIPS"
+    },
+    {
+      "at": "cabut",
+      "type": "prompt",
+      "n": 2,
+      "title": "CABUT CHARGER",
+      "text": "Perangkat yang masih menancap tetap menyedot listrik (standby)",
+      "pillLabel": "TIPS"
+    },
+    {
+      "at": "ganti",
+      "type": "prompt",
+      "n": 3,
+      "title": "GANTI LAMPU",
+      "text": "Pakai lampu LED<br>Matikan lampu di ruang kosong",
+      "pillLabel": "TIPS"
+    },
+    {
+      "at": "kulkas",
+      "type": "prompt",
+      "n": 4,
+      "title": "RAWAT KULKAS",
+      "text": "Cairkan es freezer berkala<br>Jangan lama buka pintu",
+      "pillLabel": "TIPS"
+    },
+    {
+      "at": "setrika",
+      "type": "prompt",
+      "n": 5,
+      "title": "SETRIKA &amp; DISPENSER",
+      "text": "Setrika sekaligus<br>Matikan dispenser saat tak dipakai",
+      "pillLabel": "TIPS"
+    },
+    {
+      "at": "mulai",
+      "type": "presenter",
+      "clip": "end.mp4",
+      "img": "presenter.png",
+      "label": "ABIDIN AI",
+      "head": "COBA 1 KEBIASAAN<br>HARI INI"
+    }
+  ]
+}

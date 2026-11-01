@@ -9,11 +9,13 @@
 //   node fal.mjs image --prompt "..." --out raw/frame.png [--size 1088x1920] [--quality high] [--n 1]
 //   node fal.mjs edit  --prompt "..." --image in.png --out out.png
 //   node fal.mjs video --image first.png --prompt "..." --out out.mp4 [--duration 6] [--resolution 768P]
+//   node fal.mjs avatar --image face.png --audio line.mp3 --out clip.mp4 [--prompt "..."]   # lip-sync talking presenter
 //   node fal.mjs probe                                   # auth + connectivity, costs nothing to read
 //
 // Models (fixed — do not swap without asking):
 //   openai/gpt-image-2            text->image      stills, and first frames for the video model
 //   openai/gpt-image-2/edit       image->image     fix one thing in a frame you already like
+//   fal-ai/kling-video/ai-avatar/v2/standard  image+audio->talking video  ~$0.056/s of audio, lip-synced to the audio
 //   minimax/h3-max/image-to-video image->video     max 10 s per clip, 768P by default (half the price of 1080P)
 //
 // Credentials: FAL_KEY from the environment, else ~/.config/hyperframe-pro/fal.env (chmod 600).
@@ -144,6 +146,19 @@ if (cmd === "probe") {
   await download(v.url, a.out);
   console.log(`${a.out}  ${(v.file_size / 1048576).toFixed(1)} MiB  ${dur}s`);
   if (j.expanded_prompt) console.log(`expanded prompt: ${String(j.expanded_prompt).slice(0, 300)}`);
+} else if (cmd === "avatar") {
+  if (!a.image || !a.audio || !a.out) throw new Error("avatar needs --image --audio --out");
+  const ext = path.extname(a.audio).slice(1).toLowerCase();
+  const input = {
+    image_url: dataUri(a.image),
+    audio_url: `data:audio/${ext === "mp3" ? "mpeg" : ext};base64,${fs.readFileSync(a.audio).toString("base64")}`,
+    prompt: a.prompt || "A presenter speaks naturally to the camera with a calm, friendly expression, small natural head movement, camera stays still.",
+  };
+  const j = await run("fal-ai/kling-video/ai-avatar/v2/standard", input, { pollMs: 5000, label: "kling-avatar" });
+  const v = j.video;
+  if (!v?.url) throw new Error(`no video: ${JSON.stringify(j).slice(0, 400)}`);
+  await download(v.url, a.out);
+  console.log(`${a.out}  ${(v.file_size / 1048576 || 0).toFixed(1)} MiB  duration ${j.duration ?? "?"}`);
 } else {
   console.log(fs.readFileSync(new URL(import.meta.url), "utf8").split("\n").filter((l) => l.startsWith("//")).join("\n"));
   process.exit(1);
