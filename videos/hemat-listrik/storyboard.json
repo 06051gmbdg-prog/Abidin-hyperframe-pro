@@ -17,7 +17,11 @@
     "kebiasaan",
     "korsleting",
     "kebakaran",
-    "dokumen"
+    "dokumen",
+    "bonus",
+    "dokumen",
+    "paspor",
+    "tahan"
   ],
   "scenes": [
     {
@@ -74,9 +78,19 @@
       "label": "ABIDIN AI",
       "name": "TAS DOKUMEN TAHAN API & AIR",
       "lines": [
-        "Simpan paspor & dokumen penting",
-        "Diklaim tahan api & air (menurut penjual)"
+        "Tempat paspor & dokumen penting",
+        "Tahan api & air"
       ]
+    },
+    {
+      "at": "bonus",
+      "type": "product",
+      "name": "TAS DOKUMEN TAHAN API & AIR",
+      "lines": [
+        "Tempat paspor & dokumen penting",
+        "Tahan api & air"
+      ],
+      "label": "ABIDIN AI"
     },
     {
       "at": "mulai",

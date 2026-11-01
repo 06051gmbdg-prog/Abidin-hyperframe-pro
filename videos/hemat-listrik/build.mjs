@@ -11,6 +11,7 @@ export const PLAN = [
   { beat: "S4 tip 3 lampu",      from: "next",  to: "next", hero: "slam", zones: "pill 330 | title 420 | card 640-1200 | caption 1580" },
   { beat: "S5 tip 4 kulkas",     from: "next",  to: "next", hero: "slam", zones: "pill 330 | title 420 | card 640-1200 | caption 1580" },
   { beat: "S6 tip 5 setrika",    from: "next",  to: "next", hero: "slam", zones: "pill 330 | title 420 | card 640-1200 | caption 1580" },
+  { beat: "S7 bonus produk",     from: "next",  to: "next", hero: "slam", zones: "pill 300 | name 400 | list 760 | link 1230 | caption 1580" },
   { beat: "END presenter",       from: "next",  to: "end",  hero: "slam", zones: "video full | head 300 | caption 1580" },
 ];
 
