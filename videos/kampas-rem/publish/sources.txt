@@ -1,0 +1,5 @@
+# Sumber klip/aset video kampas-rem
+p1.mp4 - p6.mp4: klip presenter AI (lip-sync Kling Avatar v2 dari foto presenter AI buatan sendiri)
+kampas-produk.png: foto listing penjual di Shopee (dipakai sebagai ilustrasi produk, tanpa klaim listing)
+Narasi: ElevenLabs (suara AI). Visual lain digambar dengan kode.
+Rujukan fakta (umum, bukan angka pasti): Moladin, CNN Indonesia, detikOto.

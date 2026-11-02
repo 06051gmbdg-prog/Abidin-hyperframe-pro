@@ -1,0 +1,21 @@
+{
+ "slug": "kampas-rem",
+ "mode": "tutorial",
+ "voiceId": "nPczCjzI2devNBz1zQrb",
+ "modelId": "eleven_multilingual_v2",
+ "language": "id",
+ "seed": 42,
+ "voiceSettings": {
+  "stability": 0.5,
+  "similarity_boost": 0.8,
+  "style": 0.25,
+  "speed": 1.0,
+  "use_speaker_boost": true
+ },
+ "scenes": [
+  {
+   "id": "vo",
+   "text": "Berapa lama kampas rem motor bisa dipakai? Jawabannya: tidak ada angka pasti. Umurnya tergantung cara Anda berkendara. Apa yang membuat kampas cepat habis? Pertama, seberapa sering Anda mengerem. Kedua, kemacetan dan jalan menurun. Ketiga, jenis motor dan medan yang dilalui. Lalu, kira-kira berapa kilometer? Satu sumber menyebut sepuluh sampai dua puluh ribu kilometer. Sumber lain menyebut sampai tiga puluh dua ribu. Karena kisarannya lebar, jangan jadikan angka sebagai patokan. Nah, apa tanda kampas harus diganti? Bunyi mencicit atau menggesek, jarak berhenti lebih panjang, tuas atau pedal terasa lebih dalam, atau kampas terlihat tipis. Pada rem tromol, cek tanda panah di tuas rem. Kalau sejajar, kampas sudah aus. Saat sudah waktunya ganti, pilih yang cocok untuk motor Anda. Contohnya kampas rem tromol di listing ini. Pastikan tipenya cocok dengan motor Anda dan cek ulasan pembeli. Link-nya ada di keterangan video. Ingat, rem itu soal keselamatan. Kalau ragu, periksakan ke bengkel. Ikuti ABIDIN AI untuk tips berikutnya."
+  }
+ ]
+}

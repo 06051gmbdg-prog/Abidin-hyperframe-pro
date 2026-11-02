@@ -1,0 +1,185 @@
+{
+ "presenterImage": "presenter-light.png",
+ "light": true,
+ "perScene": true,
+ "keys": [
+  "kampas",
+  "rem",
+  "tromol",
+  "panah",
+  "sejajar",
+  "aus",
+  "bunyi",
+  "tipis",
+  "bengkel",
+  "keselamatan",
+  "kilometer"
+ ],
+ "scenes": [
+  {
+   "type": "presenter",
+   "at": null,
+   "clip": "p1.mp4",
+   "head": "KAMPAS REM MOTOR<br>BERAPA LAMA?"
+  },
+  {
+   "type": "word",
+   "at": "jawabannya",
+   "n": "",
+   "pillLabel": "JAWABANNYA",
+   "words": [
+    "TIDAK",
+    "ADA ANGKA",
+    "PASTI"
+   ],
+   "size": 170,
+   "sub": "Tergantung cara Anda berkendara"
+  },
+  {
+   "type": "presenter",
+   "at": "apa",
+   "clip": "p2.mp4",
+   "head": "APA YANG BIKIN<br>CEPAT HABIS?"
+  },
+  {
+   "type": "ui",
+   "at": "pertama",
+   "n": "",
+   "pillLabel": "PENYEBAB",
+   "title": "3 HAL YANG MENENTUKAN",
+   "cards": [
+    {
+     "g": "traffic",
+     "t": "SERING MENGEREM"
+    },
+    {
+     "g": "road",
+     "t": "MACET & TURUNAN"
+    },
+    {
+     "g": "phone",
+     "t": "MEDAN & JENIS MOTOR"
+    }
+   ],
+   "overlays": [
+    {
+     "at": "sering"
+    },
+    {
+     "at": "kemacetan"
+    },
+    {
+     "at": "jenis"
+    }
+   ]
+  },
+  {
+   "type": "presenter",
+   "at": "lalu",
+   "clip": "p3.mp4",
+   "head": "BERAPA<br>KILOMETER?"
+  },
+  {
+   "type": "stat",
+   "at": "satu",
+   "n": "",
+   "pillLabel": "KISARAN MEDIA",
+   "value": "10.000–20.000",
+   "caption": "KILOMETER (PERKIRAAN)",
+   "sub": "Sumber lain: sampai ±32.000 km",
+   "size": 110
+  },
+  {
+   "type": "presenter",
+   "at": "nah",
+   "clip": "p4.mp4",
+   "head": "TANDA HARUS<br>DIGANTI"
+  },
+  {
+   "type": "ui",
+   "at": "bunyi",
+   "n": "",
+   "pillLabel": "TANDA",
+   "title": "CEK 4 HAL INI",
+   "cardH": 235,
+   "top": 520,
+   "cards": [
+    {
+     "g": "sound",
+     "t": "BUNYI MENCICIT"
+    },
+    {
+     "g": "dist",
+     "t": "REM LEBIH JAUH"
+    },
+    {
+     "g": "lever",
+     "t": "TUAS LEBIH DALAM"
+    },
+    {
+     "g": "thin",
+     "t": "KAMPAS TIPIS"
+    }
+   ],
+   "overlays": [
+    {
+     "at": "mencicit"
+    },
+    {
+     "at": "jarak"
+    },
+    {
+     "at": "tuas"
+    },
+    {
+     "at": "tipis"
+    }
+   ]
+  },
+  {
+   "type": "drum",
+   "at": "tromol",
+   "pillLabel": "REM TROMOL",
+   "overlays": [
+    {
+     "at": "sejajar"
+    }
+   ]
+  },
+  {
+   "type": "presenter",
+   "at": "saat",
+   "clip": "p5.mp4",
+   "head": "PILIH YANG<br>COCOK"
+  },
+  {
+   "type": "product",
+   "at": "contohnya",
+   "pillLabel": "CONTOH PRODUK",
+   "img": "kampas-produk.png",
+   "name": "KAMPAS REM TROMOL",
+   "lines": [
+    "Pastikan tipe cocok dengan motor Anda",
+    "Cek ulasan pembeli"
+   ]
+  },
+  {
+   "type": "presenter",
+   "at": "ingat",
+   "clip": "p6.mp4",
+   "head": "REM = KESELAMATAN"
+  },
+  {
+   "type": "word",
+   "at": "kalau",
+   "n": "",
+   "pillLabel": "RAGU?",
+   "words": [
+    "PERIKSAKAN",
+    "KE BENGKEL"
+   ],
+   "size": 140,
+   "sub": "Mengandung link afiliasi · link di keterangan"
+  }
+ ]
+}
