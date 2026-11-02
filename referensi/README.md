@@ -18,3 +18,8 @@ Tiru di HyperFrames: komponen HTML/SVG ikon + kartu widget dengan GSAP `back.out
 - Selingan angka besar (ref-2) bisa ditambahkan ke tipe adegan baru `stat` di `build.mjs`.
 - Kata kinetik (ref-1) bisa jadi tipe adegan `word`.
 - Widget 3D (ref-3) bisa jadi tipe adegan `ui` untuk video tentang aplikasi/HP.
+
+## Aturan tetap untuk video berikutnya (dari pemilik channel, 2 Nov 2026)
+- Naskah TIDAK boleh memuat ajakan "Ikuti ABIDIN AI" / "mengikuti ABIDIN AI" (narasi, caption, kartu penutup). Penutup cukup ajakan relevan (cek link, periksa ke bengkel, dst.).
+- Setiap bagian (selain presenter) wajib punya gambar referensi: foto/ilustrasi nyata-terlihat (fal image/edit, foto produk dari pengguna) sebagai latar atau kartu, bukan hanya teks/kartu polos, supaya video tampak menarik dan profesional.
+- Gambar AI dicatat di publish/sources.txt sebagai buatan AI; jangan pakai gambar orang terkenal, logo/merek pihak lain, atau klaim yang tidak terverifikasi.
