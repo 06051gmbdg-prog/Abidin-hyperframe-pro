@@ -95,7 +95,7 @@ S.forEach((sc, i) => {
       const cs = sc.start === 0 ? VO_START : fx(sc.start - 0.05);
       vids.push(`<video class="clip pv" id="${id}v" muted playsinline preload="auto" src="assets/clips/${esc(sc.clip)}" data-start="${cs}" data-duration="${fx(sc.end - cs + 0.1)}" data-track-index="2"></video>`);
     }
-    inner = hasV ? "" : (okp ? `<div id="${id}i" class="photo" style="background-image:url('assets/img/${esc(sc.img)}')"></div>` : `<div id="${id}i" class="photo ph"><span>${sc.clip ? "VIDEO AI" : "GAMBAR AI"}<br><small>${esc(sc.desc || sc.img)}</small></span></div>`)) + `<div class="shade"></div><div class="hd">${sc.head || ""}</div>${sc.sub ? `<div class="psub">${esc(sc.sub)}</div>` : ""}`;
+    inner = (hasV ? "" : okp ? `<div id="${id}i" class="photo" style="background-image:url('assets/img/${esc(sc.img)}')"></div>` : `<div id="${id}i" class="photo ph"><span>${sc.clip ? "VIDEO AI" : "GAMBAR AI"}<br><small>${esc(sc.desc || sc.img)}</small></span></div>`) + `<div class="shade"></div><div class="hd">${sc.head || ""}</div>${sc.sub ? `<div class="psub">${esc(sc.sub)}</div>` : ""}`;
   } else if (sc.type === "stat") {
     inner = `${bg}<div class="pill"><span>${esc(sc.pillLabel || "TIPS")} ${sc.n ?? ""}</span></div><div id="${id}s" class="stat"${sc.size ? ` style="font-size:${sc.size}px;top:540px"` : ""}>${esc(sc.value)}</div><div id="${id}l" class="statl"${sc.size ? ' style="top:720px"' : ""}>${esc(sc.caption)}</div><div id="${id}x" class="stats"${sc.size ? ' style="top:850px"' : ""}>${esc(sc.sub || "")}</div>`;
   } else if (sc.type === "word") {
