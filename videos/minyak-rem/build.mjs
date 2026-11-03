@@ -207,7 +207,7 @@ body{font-family:Inter,system-ui,sans-serif;color:${WHITE};-webkit-font-smoothin
 .pimg{position:absolute;left:240px;top:340px;width:600px;height:625px;object-fit:cover;border-radius:36px;border:4px solid ${ORG};z-index:3}
 .wg svg{width:120px;height:120px;flex:none}
 .drm{z-index:3}
-.psub{position:absolute;left:50px;right:50px;top:1470px;text-align:center;font-size:46px;font-weight:800;color:#fff;text-shadow:0 4px 16px rgba(0,0,0,0.7);z-index:4}
+.psub{position:absolute;left:50px;right:50px;top:1360px;text-align:center;font-size:46px;font-weight:800;color:#fff;text-shadow:0 4px 16px rgba(0,0,0,0.7);z-index:4}
 .uimg{position:absolute;left:90px;top:370px;width:900px;height:400px;object-fit:cover;border-radius:36px;border:4px solid ${ORG};z-index:3}
 .ph2{display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(160deg,#173D60,#0A1B2E);color:#6f9bc4;font-size:38px;font-weight:900;line-height:1.3;padding:0 40px}
 .dl1{position:absolute;left:50px;right:50px;top:1380px;text-align:center;font-size:56px;font-weight:900;color:#fff;opacity:0;z-index:3}
