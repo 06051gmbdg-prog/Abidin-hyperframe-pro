@@ -23,3 +23,10 @@ Tiru di HyperFrames: komponen HTML/SVG ikon + kartu widget dengan GSAP `back.out
 - Naskah TIDAK boleh memuat ajakan "Ikuti ABIDIN AI" / "mengikuti ABIDIN AI" (narasi, caption, kartu penutup). Penutup cukup ajakan relevan (cek link, periksa ke bengkel, dst.).
 - Setiap bagian (selain presenter) wajib punya gambar referensi: foto/ilustrasi nyata-terlihat (fal image/edit, foto produk dari pengguna) sebagai latar atau kartu, bukan hanya teks/kartu polos, supaya video tampak menarik dan profesional.
 - Gambar AI dicatat di publish/sources.txt sebagai buatan AI; jangan pakai gambar orang terkenal, logo/merek pihak lain, atau klaim yang tidak terverifikasi.
+
+## Peningkatan kualitas untuk video berikutnya (3 Nov 2026)
+- Latar kartu/info/stat/word/ui/product: warna CERAH (bukan biru navy terus). Pakai palet terang per video (mis. krem/putih hangat + aksen oranye/teal/kuning, teks gelap); presenter tetap studio terang. Ubah konstanta warna di build.mjs, jangan hardcode navy.
+- Naskah: hook lebih tajam di 3 detik pertama, satu ide per bagian, fakta bersumber, penutup relevan (tanpa ajakan Ikuti ABIDIN AI).
+- Visual AI: gambar dibuat dengan gpt-image-2 (lewat fal.ai, quality high) dengan arahan gaya konsisten per video; periksa tiap gambar sebelum lanjut.
+- Image-to-video: lebih banyak adegan bergerak (bukan hanya 3), durasi pas dengan kalimat.
+- Motion grafik: animasi diagram/infografik buatan kode di tiap video (seperti penampang rem tromol), bukan hanya kartu.
