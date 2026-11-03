@@ -31,7 +31,8 @@
    "at": "perlu",
    "img": "r1-tuas.png",
    "desc": "close-up tuas rem + kaliper motor",
-   "head": "MINYAK REM<br>MENYALURKAN TEKANAN"
+   "head": "MINYAK REM<br>MENYALURKAN TEKANAN",
+   "clip": "v1-tuas.mp4"
   },
   {
    "type": "presenter",
@@ -44,7 +45,8 @@
    "at": "menurunkan",
    "img": "r2-gelembung.png",
    "desc": "gelembung di selang rem + cakram panas",
-   "head": "AIR → TITIK DIDIH TURUN"
+   "head": "AIR → TITIK DIDIH TURUN",
+   "clip": "v2-gelembung.mp4"
   },
   {
    "type": "presenter",
@@ -173,7 +175,8 @@
    "img": "r5-mekanik.png",
    "desc": "mekanik di bengkel memeriksa rem motor",
    "head": "GANTI DI BENGKEL",
-   "sub": "Ragu? Tanyakan ke mekanik · Mengandung link afiliasi"
+   "sub": "Ragu? Tanyakan ke mekanik · Mengandung link afiliasi",
+   "clip": "v3-bengkel.mp4"
   }
  ]
 }

@@ -1,6 +1,6 @@
 // build.mjs — "Minyak rem" (9:16): lip-sync presenter in every section (light studio), ui cards, stat, drum-brake animation, product card (no price).
 // storyboard.json: scenes {at,type,label,badge,overlays[]}; every cue is "the next time this word is spoken after the previous cue".
-// Types: presenter | photo | stat | word | ui | drum | product | prompt | check.
+// photo may carry clip (assets/clips/*.mp4, root-level video). Types: presenter | photo | stat | word | ui | drum | product | prompt | check.
 import fs from "node:fs";
 import path from "node:path";
 
@@ -90,7 +90,12 @@ S.forEach((sc, i) => {
     inner = `${bg}<div class="pill"><span>${esc(sc.pillLabel || "TIPS")} ${sc.n ?? ""}</span></div><div class="ttl">${esc(sc.title)}</div><div id="${id}c" class="chat"><div class="who">LAKUKAN INI</div><div class="msg">${sc.text}</div></div><div id="${id}k" class="chip">✓ MULAI HARI INI</div>`;
   } else if (sc.type === "photo") {
     const okp = fs.existsSync(path.join(proj, "assets/img", sc.img));
-    inner = (okp ? `<div id="${id}i" class="photo" style="background-image:url('assets/img/${esc(sc.img)}')"></div>` : `<div id="${id}i" class="photo ph"><span>GAMBAR AI<br><small>${esc(sc.desc || sc.img)}</small></span></div>`) + `<div class="shade"></div><div class="hd">${sc.head || ""}</div>${sc.sub ? `<div class="psub">${esc(sc.sub)}</div>` : ""}`;
+    const hasV = sc.clip && fs.existsSync(path.join(proj, "assets/clips", sc.clip));
+    if (hasV) {
+      const cs = sc.start === 0 ? VO_START : fx(sc.start - 0.05);
+      vids.push(`<video class="clip pv" id="${id}v" muted playsinline preload="auto" src="assets/clips/${esc(sc.clip)}" data-start="${cs}" data-duration="${fx(sc.end - cs + 0.1)}" data-track-index="2"></video>`);
+    }
+    inner = hasV ? "" : (okp ? `<div id="${id}i" class="photo" style="background-image:url('assets/img/${esc(sc.img)}')"></div>` : `<div id="${id}i" class="photo ph"><span>${sc.clip ? "VIDEO AI" : "GAMBAR AI"}<br><small>${esc(sc.desc || sc.img)}</small></span></div>`)) + `<div class="shade"></div><div class="hd">${sc.head || ""}</div>${sc.sub ? `<div class="psub">${esc(sc.sub)}</div>` : ""}`;
   } else if (sc.type === "stat") {
     inner = `${bg}<div class="pill"><span>${esc(sc.pillLabel || "TIPS")} ${sc.n ?? ""}</span></div><div id="${id}s" class="stat"${sc.size ? ` style="font-size:${sc.size}px;top:540px"` : ""}>${esc(sc.value)}</div><div id="${id}l" class="statl"${sc.size ? ' style="top:720px"' : ""}>${esc(sc.caption)}</div><div id="${id}x" class="stats"${sc.size ? ' style="top:850px"' : ""}>${esc(sc.sub || "")}</div>`;
   } else if (sc.type === "word") {
@@ -133,7 +138,7 @@ S.forEach((sc, i) => {
   }
   if (sc.type === "ui" && sc.topImg) tl.push(`tl.fromTo("#${id}g",{scale:0.9,opacity:0},{scale:1,opacity:1,duration:0.5,ease:"power3.out"},${fx(t0 + 0.1)});`);
   if (sc.type === "ui") sc.cards.forEach((_, k) => tl.push(`tl.fromTo("#${id}u${k}",{y:140,rotationX:-40,opacity:0,transformPerspective:900},{y:0,rotationX:0,opacity:1,duration:0.55,ease:"back.out(1.8)"},${fx(sc.ov[k] ? sc.ov[k].t : t0 + 0.3 + k * 0.5)});`));
-  if (sc.type === "photo") tl.push(`tl.fromTo("#${id}i",{scale:1.0,transformOrigin:"50% 40%"},{scale:1.12,transformOrigin:"50% 40%",duration:${dur},ease:"none"},${t0});`);
+  if (sc.type === "photo" && !(sc.clip && fs.existsSync(path.join(proj, "assets/clips", sc.clip)))) tl.push(`tl.fromTo("#${id}i",{scale:1.0,transformOrigin:"50% 40%"},{scale:1.12,transformOrigin:"50% 40%",duration:${dur},ease:"none"},${t0});`);
   if (sc.type === "drum") {
     const ot = sc.ov[0] ? sc.ov[0].t : t0 + 3, as = fx(Math.max(t0 + 0.9, ot - 1.3));
     tl.push(`tl.fromTo("#${id}d",{scale:0.6,opacity:0,transformOrigin:"50% 50%"},{scale:1,opacity:1,duration:0.5,ease:"back.out(1.6)"},${fx(t0 + 0.15)});`);
