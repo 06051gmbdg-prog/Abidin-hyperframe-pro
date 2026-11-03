@@ -1,0 +1,151 @@
+{
+ "presenterImage": "presenter-light.png",
+ "light": true,
+ "perScene": true,
+ "keys": [
+  "tekanan",
+  "aus",
+  "boros",
+  "cengkeraman",
+  "rekomendasi",
+  "maksimum",
+  "dingin",
+  "seminggu",
+  "pentil",
+  "aman",
+  "hemat"
+ ],
+ "scenes": [
+  {
+   "type": "presenter",
+   "at": null,
+   "clip": "p1.mp4",
+   "head": "BAN MOTOR ANDA<br>CUKUP ANGIN?"
+  },
+  {
+   "type": "photo",
+   "at": "tekanan",
+   "img": "a1-ban-jalan.png",
+   "clip": "v1-ban.mp4",
+   "desc": "ban depan motor melaju di jalan bergelombang",
+   "head": "TEKANAN BAN<br>TIDAK SELALU TERLIHAT"
+  },
+  {
+   "type": "presenter",
+   "at": "apa",
+   "clip": "p2.mp4",
+   "head": "APA AKIBATNYA<br>KALAU TIDAK PAS?"
+  },
+  {
+   "type": "tire",
+   "at": "ban",
+   "pillLabel": "AKIBAT",
+   "chips": [
+    {
+     "g": "tread",
+     "t": "BAN CEPAT AUS"
+    },
+    {
+     "g": "fuel",
+     "t": "LEBIH BOROS BBM"
+    },
+    {
+     "g": "grip",
+     "t": "CENGKERAMAN TURUN"
+    }
+   ],
+   "overlays": [
+    {
+     "at": "aus"
+    },
+    {
+     "at": "boros"
+    },
+    {
+     "at": "cengkeraman"
+    }
+   ]
+  },
+  {
+   "type": "presenter",
+   "at": "berapa",
+   "clip": "p3.mp4",
+   "head": "BERAPA TEKANAN<br>YANG BENAR?"
+  },
+  {
+   "type": "ui",
+   "at": "ikuti",
+   "n": "",
+   "pillLabel": "IKUTI",
+   "topImg": "a2-dinding-ban.png",
+   "desc": "close-up dinding ban motor (tanpa teks)",
+   "top": 820,
+   "cardH": 210,
+   "cards": [
+    {
+     "g": "ok",
+     "t": "REKOMENDASI PABRIKAN"
+    },
+    {
+     "g": "warn2",
+     "t": "ANGKA DI DINDING BAN = MAKSIMUM"
+    }
+   ],
+   "overlays": [
+    {
+     "at": "rekomendasi"
+    },
+    {
+     "at": "angka"
+    }
+   ]
+  },
+  {
+   "type": "presenter",
+   "at": "kapan",
+   "clip": "p4.mp4",
+   "head": "KAPAN WAKTU<br>TERBAIKNYA?"
+  },
+  {
+   "type": "stat",
+   "at": "saat",
+   "n": "",
+   "pillLabel": "SARAN",
+   "value": "1× SEMINGGU",
+   "caption": "CEK SAAT BAN DINGIN",
+   "sub": "Sebelum berkendara jauh",
+   "size": 120
+  },
+  {
+   "type": "presenter",
+   "at": "bagaimana",
+   "clip": "p5.mp4",
+   "head": "CARA CEPAT<br>MENGECEK"
+  },
+  {
+   "type": "photo",
+   "at": "pakai",
+   "img": "pasang.png",
+   "head": "PASANG KE PENTIL<br>BACA ANGKANYA"
+  },
+  {
+   "type": "product",
+   "at": "contohnya",
+   "pillLabel": "CONTOH PRODUK",
+   "img": "alat-produk.png",
+   "name": "ALAT UKUR TEKANAN BAN",
+   "lines": [
+    "Pastikan satuan sama dengan angka rekomendasi",
+    "Cek ulasan pembeli"
+   ]
+  },
+  {
+   "type": "photo",
+   "at": "cek",
+   "img": "a3-cek-ban.png",
+   "desc": "pengendara memeriksa ban motor di pagi hari",
+   "head": "CEK BAN DULU<br>SEBELUM BERANGKAT",
+   "sub": "Mengandung link afiliasi · link di keterangan"
+  }
+ ]
+}

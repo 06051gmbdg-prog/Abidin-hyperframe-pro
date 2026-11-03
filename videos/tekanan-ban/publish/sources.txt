@@ -1,0 +1,11 @@
+# Sumber klip/aset video tekanan-ban (footage dibuat AI, bukan kejadian nyata)
+p1.mp4 - klip presenter AI (lip-sync Kling Avatar v2 dari foto presenter AI buatan sendiri), bukan kejadian nyata
+p2.mp4 - klip presenter AI (lip-sync Kling Avatar v2 dari foto presenter AI buatan sendiri), bukan kejadian nyata
+p3.mp4 - klip presenter AI (lip-sync Kling Avatar v2 dari foto presenter AI buatan sendiri), bukan kejadian nyata
+p4.mp4 - klip presenter AI (lip-sync Kling Avatar v2 dari foto presenter AI buatan sendiri), bukan kejadian nyata
+p5.mp4 - klip presenter AI (lip-sync Kling Avatar v2 dari foto presenter AI buatan sendiri), bukan kejadian nyata
+v1-ban.mp4 - video ilustrasi buatan AI (image-to-video dari gambar AI sendiri), bukan rekaman kejadian nyata
+a1-ban-jalan.png, a2-dinding-ban.png, a3-cek-ban.png - gambar ilustrasi buatan AI (gpt-image), bukan foto kejadian nyata
+pasang.png, alat-produk.png - foto listing penjual di Shopee, dipakai sebagai ilustrasi produk tanpa klaim listing
+Narasi: ElevenLabs (suara AI). Visual lain digambar dengan kode.
+Rujukan fakta umum: detikOto, IDN Times, ANTARA Jabar.

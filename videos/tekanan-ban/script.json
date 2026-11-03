@@ -1,0 +1,21 @@
+{
+ "slug": "tekanan-ban",
+ "mode": "tutorial",
+ "voiceId": "nPczCjzI2devNBz1zQrb",
+ "modelId": "eleven_multilingual_v2",
+ "language": "id",
+ "seed": 42,
+ "voiceSettings": {
+  "stability": 0.5,
+  "similarity_boost": 0.8,
+  "style": 0.25,
+  "speed": 1.0,
+  "use_speaker_boost": true
+ },
+ "scenes": [
+  {
+   "id": "vo",
+   "text": "Ban motor Anda cukup angin hari ini? Tekanan ban belum tentu pas, walau ban terlihat normal. Jalan bergelombang bisa menurunkannya tanpa Anda sadari. Apa akibatnya kalau tekanan tidak pas? Ban lebih cepat aus, bahan bakar lebih boros, dan cengkeraman ke jalan berkurang. Berapa tekanan yang benar? Ikuti rekomendasi pabrikan motor, bukan angka di dinding ban. Angka di dinding itu batas maksimum. Rekomendasinya ada di buku manual motor Anda. Kapan waktu terbaik mengeceknya? Saat ban masih dingin, sebelum berkendara jauh. Ban yang panas membuat angkanya terbaca lebih tinggi. Kebiasaan yang disarankan: cek paling tidak seminggu sekali. Bagaimana cara cepatnya? Pakai alat ukur digital. Buka tutup pentil, pasang alat ke pentil, lalu baca angkanya. Pastikan satuannya sama dengan angka rekomendasi. Contohnya alat di listing ini. Link-nya ada di keterangan video. Cek tekanan ban sebelum berangkat. Perjalanan jadi lebih aman dan hemat."
+  }
+ ]
+}
