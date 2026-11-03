@@ -1,0 +1,16 @@
+# Reads the fal.ai credit balance with the FAL_KEY secret. Free, generates nothing.
+name: fal-balance
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  balance:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Billing
+        env:
+          FAL_KEY: ${{ secrets.FAL_KEY }}
+        run: |
+          code=$(curl -sS -o out.json -w "%{http_code}" -H "Authorization: Key $FAL_KEY" "https://api.fal.ai/v1/account/billing?expand=credits")
+          echo "HTTP $code"; head -c 600 out.json; echo
