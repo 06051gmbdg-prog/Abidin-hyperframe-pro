@@ -1,0 +1,21 @@
+{
+ "slug": "minyak-rem",
+ "mode": "tutorial",
+ "voiceId": "nPczCjzI2devNBz1zQrb",
+ "modelId": "eleven_multilingual_v2",
+ "language": "id",
+ "seed": 42,
+ "voiceSettings": {
+  "stability": 0.5,
+  "similarity_boost": 0.8,
+  "style": 0.25,
+  "speed": 1.0,
+  "use_speaker_boost": true
+ },
+ "scenes": [
+  {
+   "id": "vo",
+   "text": "Minyak rem motor, wajib diganti atau tidak? Perlu. Minyak rem menyalurkan tekanan dari tuas ke kaliper, dan lama-lama menyerap air. Kenapa air jadi masalah? Air menurunkan titik didih minyak rem. Saat rem panas, bisa muncul gelembung udara, dan rem terasa kurang pakem. Kapan harus diganti? Satu sumber menyebut setiap dua puluh lima ribu kilometer atau dua tahun. Yang paling aman, ikuti buku servis motor Anda. Apa tanda minyak rem bermasalah? Warnanya keruh, volumenya menyusut, atau rem terasa kurang pakem. Kalau ada, periksakan ke bengkel. Lalu, DOT itu apa? DOT menunjukkan jenis dan titik didih minyak rem. Motor umumnya memakai DOT tiga atau empat. Lihat tulisan di tutup tabung, dan jangan campur dengan DOT lima. Saat waktunya ganti, pilih yang sesuai. Contohnya produk di listing ini, bertuliskan DOT tiga. Pastikan cocok dengan spesifikasi di tutup tabung motor Anda. Link-nya ada di keterangan video. Ingat, rem itu soal keselamatan. Mengganti minyak rem sebaiknya di bengkel. Kalau ragu, tanyakan ke mekanik."
+  }
+ ]
+}

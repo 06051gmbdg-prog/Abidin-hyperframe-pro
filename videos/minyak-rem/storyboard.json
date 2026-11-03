@@ -1,0 +1,179 @@
+{
+ "presenterImage": "presenter-light.png",
+ "light": true,
+ "perScene": true,
+ "keys": [
+  "perlu",
+  "menyalurkan",
+  "air",
+  "titik",
+  "didih",
+  "gelembung",
+  "keruh",
+  "menyusut",
+  "pakem",
+  "dot",
+  "silikon",
+  "dicampur",
+  "bengkel",
+  "mekanik",
+  "keselamatan"
+ ],
+ "scenes": [
+  {
+   "type": "presenter",
+   "at": null,
+   "clip": "p1.mp4",
+   "head": "MINYAK REM MOTOR<br>WAJIB DIGANTI?"
+  },
+  {
+   "type": "photo",
+   "at": "perlu",
+   "img": "r1-tuas.png",
+   "desc": "close-up tuas rem + kaliper motor",
+   "head": "MINYAK REM<br>MENYALURKAN TEKANAN"
+  },
+  {
+   "type": "presenter",
+   "at": "kenapa",
+   "clip": "p2.mp4",
+   "head": "KENAPA AIR<br>JADI MASALAH?"
+  },
+  {
+   "type": "photo",
+   "at": "menurunkan",
+   "img": "r2-gelembung.png",
+   "desc": "gelembung di selang rem + cakram panas",
+   "head": "AIR → TITIK DIDIH TURUN"
+  },
+  {
+   "type": "presenter",
+   "at": "kapan",
+   "clip": "p3.mp4",
+   "head": "KAPAN HARUS<br>DIGANTI?"
+  },
+  {
+   "type": "stat",
+   "at": "satu",
+   "n": "",
+   "pillLabel": "ACUAN UMUM",
+   "value": "25.000 KM",
+   "caption": "ATAU 2 TAHUN",
+   "sub": "Ikuti buku servis motor Anda",
+   "size": 160
+  },
+  {
+   "type": "presenter",
+   "at": "apa",
+   "clip": "p4.mp4",
+   "head": "TANDA MINYAK REM<br>BERMASALAH"
+  },
+  {
+   "type": "ui",
+   "at": "warnanya",
+   "n": "",
+   "pillLabel": "TANDA",
+   "topImg": "r3-tabung.png",
+   "desc": "tabung minyak rem: jernih vs keruh",
+   "top": 800,
+   "cardH": 220,
+   "cards": [
+    {
+     "g": "drop",
+     "t": "WARNA KERUH"
+    },
+    {
+     "g": "thin",
+     "t": "VOLUME MENYUSUT"
+    },
+    {
+     "g": "lever",
+     "t": "REM KURANG PAKEM"
+    }
+   ],
+   "overlays": [
+    {
+     "at": "keruh"
+    },
+    {
+     "at": "volumenya"
+    },
+    {
+     "at": "kurang"
+    }
+   ]
+  },
+  {
+   "type": "presenter",
+   "at": "lalu",
+   "clip": "p5.mp4",
+   "head": "APA ITU<br>DOT?"
+  },
+  {
+   "type": "ui",
+   "at": "menunjukkan",
+   "n": "",
+   "pillLabel": "JENIS DOT",
+   "topImg": "r4-tutup.png",
+   "desc": "tutup tabung minyak rem di stang",
+   "top": 800,
+   "cardH": 220,
+   "cards": [
+    {
+     "g": "drop",
+     "t": "DOT 3"
+    },
+    {
+     "g": "drop",
+     "t": "DOT 4"
+    },
+    {
+     "g": "warn",
+     "t": "DOT 5 SILIKON: JANGAN DICAMPUR"
+    }
+   ],
+   "overlays": [
+    {
+     "at": "tiga"
+    },
+    {
+     "at": "empat"
+    },
+    {
+     "at": "lima"
+    }
+   ]
+  },
+  {
+   "type": "presenter",
+   "at": "saat",
+   "clip": "p6.mp4",
+   "head": "PILIH YANG<br>SESUAI"
+  },
+  {
+   "type": "product",
+   "at": "contohnya",
+   "pillLabel": "CONTOH PRODUK",
+   "img": "minyak-produk.png",
+   "name": "MINYAK REM 300 ML",
+   "lines": [
+    "Cocokkan dengan spesifikasi di tutup tabung",
+    "Cek ulasan pembeli"
+   ]
+  },
+  {
+   "type": "presenter",
+   "at": "ingat",
+   "clip": "p7.mp4",
+   "head": "REM = KESELAMATAN"
+  },
+  {
+   "type": "photo",
+   "at": "mengganti",
+   "img": "r5-mekanik.png",
+   "desc": "mekanik di bengkel memeriksa rem motor",
+   "head": "GANTI DI BENGKEL",
+   "sub": "Ragu? Tanyakan ke mekanik · Mengandung link afiliasi"
+  }
+ ]
+}
