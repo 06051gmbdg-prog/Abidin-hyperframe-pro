@@ -1,0 +1,910 @@
+{
+ "voiceId": "nPczCjzI2devNBz1zQrb",
+ "modelId": "eleven_multilingual_v2",
+ "scenes": [
+  {
+   "id": "vo",
+   "text": "Keluarga Anda kecelakaan di jalan? Tunggu dulu, jangan buru-buru damai di tempat. Apa yang harus didahulukan? Keselamatan. Amankan lokasi, panggil bantuan, dan jangan pindahkan korban yang dicurigai cedera serius, kecuali ada bahaya langsung. Lalu apa? Pastikan korban mendapat pertolongan medis, dan catat identitas pihak yang terlibat. Bagaimana soal santunan? Dalam kondisi tertentu, korban kecelakaan lalu lintas bisa memperoleh santunan Jasa Raharja, sesuai aturan dan hasil verifikasi. Tidak semua kejadian otomatis memenuhi syarat. Dokumen apa yang diurus? Koordinasi dengan kepolisian untuk laporan kecelakaan, rumah sakit, dan Jasa Raharja. Tanyakan dokumen yang dibutuhkan untuk kasus Anda. Bagaimana dengan bukti? Kalau aman, dokumentasikan lokasi, kendaraan, dan saksi. Jangan mengubah atau menghapus rekaman. Contohnya kamera mini di listing ini. Link-nya ada di keterangan video. Kamera seperti ini membantu merekam, bukan jaminan penyelesaian hukum. Terakhir, jangan menunda. Batas waktu dan prosedur bisa berbeda, jadi konfirmasi ke pihak resmi secepatnya. Semoga selalu selamat di jalan.",
+   "wav": "vo.wav",
+   "duration": 70,
+   "speechStart": 0.06,
+   "speechEnd": 67.84,
+   "words": [
+    {
+     "id": "w0",
+     "text": "Keluarga",
+     "start": 0.06,
+     "end": 0.43
+    },
+    {
+     "id": "w1",
+     "text": "Anda",
+     "start": 0.48,
+     "end": 0.85
+    },
+    {
+     "id": "w2",
+     "text": "kecelakaan",
+     "start": 0.9,
+     "end": 1.27
+    },
+    {
+     "id": "w3",
+     "text": "di",
+     "start": 1.32,
+     "end": 1.69
+    },
+    {
+     "id": "w4",
+     "text": "jalan?",
+     "start": 1.74,
+     "end": 2.11
+    },
+    {
+     "id": "w5",
+     "text": "Tunggu",
+     "start": 2.41,
+     "end": 2.78
+    },
+    {
+     "id": "w6",
+     "text": "dulu,",
+     "start": 2.83,
+     "end": 3.2
+    },
+    {
+     "id": "w7",
+     "text": "jangan",
+     "start": 3.25,
+     "end": 3.62
+    },
+    {
+     "id": "w8",
+     "text": "buru-buru",
+     "start": 3.67,
+     "end": 4.04
+    },
+    {
+     "id": "w9",
+     "text": "damai",
+     "start": 4.09,
+     "end": 4.46
+    },
+    {
+     "id": "w10",
+     "text": "di",
+     "start": 4.51,
+     "end": 4.88
+    },
+    {
+     "id": "w11",
+     "text": "tempat.",
+     "start": 4.93,
+     "end": 5.3
+    },
+    {
+     "id": "w12",
+     "text": "Apa",
+     "start": 5.6,
+     "end": 5.97
+    },
+    {
+     "id": "w13",
+     "text": "yang",
+     "start": 6.02,
+     "end": 6.39
+    },
+    {
+     "id": "w14",
+     "text": "harus",
+     "start": 6.44,
+     "end": 6.81
+    },
+    {
+     "id": "w15",
+     "text": "didahulukan?",
+     "start": 6.86,
+     "end": 7.23
+    },
+    {
+     "id": "w16",
+     "text": "Keselamatan.",
+     "start": 7.53,
+     "end": 7.9
+    },
+    {
+     "id": "w17",
+     "text": "Amankan",
+     "start": 8.2,
+     "end": 8.57
+    },
+    {
+     "id": "w18",
+     "text": "lokasi,",
+     "start": 8.62,
+     "end": 8.99
+    },
+    {
+     "id": "w19",
+     "text": "panggil",
+     "start": 9.04,
+     "end": 9.41
+    },
+    {
+     "id": "w20",
+     "text": "bantuan,",
+     "start": 9.46,
+     "end": 9.83
+    },
+    {
+     "id": "w21",
+     "text": "dan",
+     "start": 9.88,
+     "end": 10.25
+    },
+    {
+     "id": "w22",
+     "text": "jangan",
+     "start": 10.3,
+     "end": 10.67
+    },
+    {
+     "id": "w23",
+     "text": "pindahkan",
+     "start": 10.72,
+     "end": 11.09
+    },
+    {
+     "id": "w24",
+     "text": "korban",
+     "start": 11.14,
+     "end": 11.51
+    },
+    {
+     "id": "w25",
+     "text": "yang",
+     "start": 11.56,
+     "end": 11.93
+    },
+    {
+     "id": "w26",
+     "text": "dicurigai",
+     "start": 11.98,
+     "end": 12.35
+    },
+    {
+     "id": "w27",
+     "text": "cedera",
+     "start": 12.4,
+     "end": 12.77
+    },
+    {
+     "id": "w28",
+     "text": "serius,",
+     "start": 12.82,
+     "end": 13.19
+    },
+    {
+     "id": "w29",
+     "text": "kecuali",
+     "start": 13.24,
+     "end": 13.61
+    },
+    {
+     "id": "w30",
+     "text": "ada",
+     "start": 13.66,
+     "end": 14.03
+    },
+    {
+     "id": "w31",
+     "text": "bahaya",
+     "start": 14.08,
+     "end": 14.45
+    },
+    {
+     "id": "w32",
+     "text": "langsung.",
+     "start": 14.5,
+     "end": 14.87
+    },
+    {
+     "id": "w33",
+     "text": "Lalu",
+     "start": 15.17,
+     "end": 15.54
+    },
+    {
+     "id": "w34",
+     "text": "apa?",
+     "start": 15.59,
+     "end": 15.96
+    },
+    {
+     "id": "w35",
+     "text": "Pastikan",
+     "start": 16.26,
+     "end": 16.63
+    },
+    {
+     "id": "w36",
+     "text": "korban",
+     "start": 16.68,
+     "end": 17.05
+    },
+    {
+     "id": "w37",
+     "text": "mendapat",
+     "start": 17.1,
+     "end": 17.47
+    },
+    {
+     "id": "w38",
+     "text": "pertolongan",
+     "start": 17.52,
+     "end": 17.89
+    },
+    {
+     "id": "w39",
+     "text": "medis,",
+     "start": 17.94,
+     "end": 18.31
+    },
+    {
+     "id": "w40",
+     "text": "dan",
+     "start": 18.36,
+     "end": 18.73
+    },
+    {
+     "id": "w41",
+     "text": "catat",
+     "start": 18.78,
+     "end": 19.15
+    },
+    {
+     "id": "w42",
+     "text": "identitas",
+     "start": 19.2,
+     "end": 19.57
+    },
+    {
+     "id": "w43",
+     "text": "pihak",
+     "start": 19.62,
+     "end": 19.99
+    },
+    {
+     "id": "w44",
+     "text": "yang",
+     "start": 20.04,
+     "end": 20.41
+    },
+    {
+     "id": "w45",
+     "text": "terlibat.",
+     "start": 20.46,
+     "end": 20.83
+    },
+    {
+     "id": "w46",
+     "text": "Bagaimana",
+     "start": 21.13,
+     "end": 21.5
+    },
+    {
+     "id": "w47",
+     "text": "soal",
+     "start": 21.55,
+     "end": 21.92
+    },
+    {
+     "id": "w48",
+     "text": "santunan?",
+     "start": 21.97,
+     "end": 22.34
+    },
+    {
+     "id": "w49",
+     "text": "Dalam",
+     "start": 22.64,
+     "end": 23.01
+    },
+    {
+     "id": "w50",
+     "text": "kondisi",
+     "start": 23.06,
+     "end": 23.43
+    },
+    {
+     "id": "w51",
+     "text": "tertentu,",
+     "start": 23.48,
+     "end": 23.85
+    },
+    {
+     "id": "w52",
+     "text": "korban",
+     "start": 23.9,
+     "end": 24.27
+    },
+    {
+     "id": "w53",
+     "text": "kecelakaan",
+     "start": 24.32,
+     "end": 24.69
+    },
+    {
+     "id": "w54",
+     "text": "lalu",
+     "start": 24.74,
+     "end": 25.11
+    },
+    {
+     "id": "w55",
+     "text": "lintas",
+     "start": 25.16,
+     "end": 25.53
+    },
+    {
+     "id": "w56",
+     "text": "bisa",
+     "start": 25.58,
+     "end": 25.95
+    },
+    {
+     "id": "w57",
+     "text": "memperoleh",
+     "start": 26,
+     "end": 26.37
+    },
+    {
+     "id": "w58",
+     "text": "santunan",
+     "start": 26.42,
+     "end": 26.79
+    },
+    {
+     "id": "w59",
+     "text": "Jasa",
+     "start": 26.84,
+     "end": 27.21
+    },
+    {
+     "id": "w60",
+     "text": "Raharja,",
+     "start": 27.26,
+     "end": 27.63
+    },
+    {
+     "id": "w61",
+     "text": "sesuai",
+     "start": 27.68,
+     "end": 28.05
+    },
+    {
+     "id": "w62",
+     "text": "aturan",
+     "start": 28.1,
+     "end": 28.47
+    },
+    {
+     "id": "w63",
+     "text": "dan",
+     "start": 28.52,
+     "end": 28.89
+    },
+    {
+     "id": "w64",
+     "text": "hasil",
+     "start": 28.94,
+     "end": 29.31
+    },
+    {
+     "id": "w65",
+     "text": "verifikasi.",
+     "start": 29.36,
+     "end": 29.73
+    },
+    {
+     "id": "w66",
+     "text": "Tidak",
+     "start": 30.03,
+     "end": 30.4
+    },
+    {
+     "id": "w67",
+     "text": "semua",
+     "start": 30.45,
+     "end": 30.82
+    },
+    {
+     "id": "w68",
+     "text": "kejadian",
+     "start": 30.87,
+     "end": 31.24
+    },
+    {
+     "id": "w69",
+     "text": "otomatis",
+     "start": 31.29,
+     "end": 31.66
+    },
+    {
+     "id": "w70",
+     "text": "memenuhi",
+     "start": 31.71,
+     "end": 32.08
+    },
+    {
+     "id": "w71",
+     "text": "syarat.",
+     "start": 32.13,
+     "end": 32.5
+    },
+    {
+     "id": "w72",
+     "text": "Dokumen",
+     "start": 32.8,
+     "end": 33.17
+    },
+    {
+     "id": "w73",
+     "text": "apa",
+     "start": 33.22,
+     "end": 33.59
+    },
+    {
+     "id": "w74",
+     "text": "yang",
+     "start": 33.64,
+     "end": 34.01
+    },
+    {
+     "id": "w75",
+     "text": "diurus?",
+     "start": 34.06,
+     "end": 34.43
+    },
+    {
+     "id": "w76",
+     "text": "Koordinasi",
+     "start": 34.73,
+     "end": 35.1
+    },
+    {
+     "id": "w77",
+     "text": "dengan",
+     "start": 35.15,
+     "end": 35.52
+    },
+    {
+     "id": "w78",
+     "text": "kepolisian",
+     "start": 35.57,
+     "end": 35.94
+    },
+    {
+     "id": "w79",
+     "text": "untuk",
+     "start": 35.99,
+     "end": 36.36
+    },
+    {
+     "id": "w80",
+     "text": "laporan",
+     "start": 36.41,
+     "end": 36.78
+    },
+    {
+     "id": "w81",
+     "text": "kecelakaan,",
+     "start": 36.83,
+     "end": 37.2
+    },
+    {
+     "id": "w82",
+     "text": "rumah",
+     "start": 37.25,
+     "end": 37.62
+    },
+    {
+     "id": "w83",
+     "text": "sakit,",
+     "start": 37.67,
+     "end": 38.04
+    },
+    {
+     "id": "w84",
+     "text": "dan",
+     "start": 38.09,
+     "end": 38.46
+    },
+    {
+     "id": "w85",
+     "text": "Jasa",
+     "start": 38.51,
+     "end": 38.88
+    },
+    {
+     "id": "w86",
+     "text": "Raharja.",
+     "start": 38.93,
+     "end": 39.3
+    },
+    {
+     "id": "w87",
+     "text": "Tanyakan",
+     "start": 39.6,
+     "end": 39.97
+    },
+    {
+     "id": "w88",
+     "text": "dokumen",
+     "start": 40.02,
+     "end": 40.39
+    },
+    {
+     "id": "w89",
+     "text": "yang",
+     "start": 40.44,
+     "end": 40.81
+    },
+    {
+     "id": "w90",
+     "text": "dibutuhkan",
+     "start": 40.86,
+     "end": 41.23
+    },
+    {
+     "id": "w91",
+     "text": "untuk",
+     "start": 41.28,
+     "end": 41.65
+    },
+    {
+     "id": "w92",
+     "text": "kasus",
+     "start": 41.7,
+     "end": 42.07
+    },
+    {
+     "id": "w93",
+     "text": "Anda.",
+     "start": 42.12,
+     "end": 42.49
+    },
+    {
+     "id": "w94",
+     "text": "Bagaimana",
+     "start": 42.79,
+     "end": 43.16
+    },
+    {
+     "id": "w95",
+     "text": "dengan",
+     "start": 43.21,
+     "end": 43.58
+    },
+    {
+     "id": "w96",
+     "text": "bukti?",
+     "start": 43.63,
+     "end": 44
+    },
+    {
+     "id": "w97",
+     "text": "Kalau",
+     "start": 44.3,
+     "end": 44.67
+    },
+    {
+     "id": "w98",
+     "text": "aman,",
+     "start": 44.72,
+     "end": 45.09
+    },
+    {
+     "id": "w99",
+     "text": "dokumentasikan",
+     "start": 45.14,
+     "end": 45.51
+    },
+    {
+     "id": "w100",
+     "text": "lokasi,",
+     "start": 45.56,
+     "end": 45.93
+    },
+    {
+     "id": "w101",
+     "text": "kendaraan,",
+     "start": 45.98,
+     "end": 46.35
+    },
+    {
+     "id": "w102",
+     "text": "dan",
+     "start": 46.4,
+     "end": 46.77
+    },
+    {
+     "id": "w103",
+     "text": "saksi.",
+     "start": 46.82,
+     "end": 47.19
+    },
+    {
+     "id": "w104",
+     "text": "Jangan",
+     "start": 47.49,
+     "end": 47.86
+    },
+    {
+     "id": "w105",
+     "text": "mengubah",
+     "start": 47.91,
+     "end": 48.28
+    },
+    {
+     "id": "w106",
+     "text": "atau",
+     "start": 48.33,
+     "end": 48.7
+    },
+    {
+     "id": "w107",
+     "text": "menghapus",
+     "start": 48.75,
+     "end": 49.12
+    },
+    {
+     "id": "w108",
+     "text": "rekaman.",
+     "start": 49.17,
+     "end": 49.54
+    },
+    {
+     "id": "w109",
+     "text": "Contohnya",
+     "start": 49.84,
+     "end": 50.21
+    },
+    {
+     "id": "w110",
+     "text": "kamera",
+     "start": 50.26,
+     "end": 50.63
+    },
+    {
+     "id": "w111",
+     "text": "mini",
+     "start": 50.68,
+     "end": 51.05
+    },
+    {
+     "id": "w112",
+     "text": "di",
+     "start": 51.1,
+     "end": 51.47
+    },
+    {
+     "id": "w113",
+     "text": "listing",
+     "start": 51.52,
+     "end": 51.89
+    },
+    {
+     "id": "w114",
+     "text": "ini.",
+     "start": 51.94,
+     "end": 52.31
+    },
+    {
+     "id": "w115",
+     "text": "Link-nya",
+     "start": 52.61,
+     "end": 52.98
+    },
+    {
+     "id": "w116",
+     "text": "ada",
+     "start": 53.03,
+     "end": 53.4
+    },
+    {
+     "id": "w117",
+     "text": "di",
+     "start": 53.45,
+     "end": 53.82
+    },
+    {
+     "id": "w118",
+     "text": "keterangan",
+     "start": 53.87,
+     "end": 54.24
+    },
+    {
+     "id": "w119",
+     "text": "video.",
+     "start": 54.29,
+     "end": 54.66
+    },
+    {
+     "id": "w120",
+     "text": "Kamera",
+     "start": 54.96,
+     "end": 55.33
+    },
+    {
+     "id": "w121",
+     "text": "seperti",
+     "start": 55.38,
+     "end": 55.75
+    },
+    {
+     "id": "w122",
+     "text": "ini",
+     "start": 55.8,
+     "end": 56.17
+    },
+    {
+     "id": "w123",
+     "text": "membantu",
+     "start": 56.22,
+     "end": 56.59
+    },
+    {
+     "id": "w124",
+     "text": "merekam,",
+     "start": 56.64,
+     "end": 57.01
+    },
+    {
+     "id": "w125",
+     "text": "bukan",
+     "start": 57.06,
+     "end": 57.43
+    },
+    {
+     "id": "w126",
+     "text": "jaminan",
+     "start": 57.48,
+     "end": 57.85
+    },
+    {
+     "id": "w127",
+     "text": "penyelesaian",
+     "start": 57.9,
+     "end": 58.27
+    },
+    {
+     "id": "w128",
+     "text": "hukum.",
+     "start": 58.32,
+     "end": 58.69
+    },
+    {
+     "id": "w129",
+     "text": "Terakhir,",
+     "start": 58.99,
+     "end": 59.36
+    },
+    {
+     "id": "w130",
+     "text": "jangan",
+     "start": 59.41,
+     "end": 59.78
+    },
+    {
+     "id": "w131",
+     "text": "menunda.",
+     "start": 59.83,
+     "end": 60.2
+    },
+    {
+     "id": "w132",
+     "text": "Batas",
+     "start": 60.5,
+     "end": 60.87
+    },
+    {
+     "id": "w133",
+     "text": "waktu",
+     "start": 60.92,
+     "end": 61.29
+    },
+    {
+     "id": "w134",
+     "text": "dan",
+     "start": 61.34,
+     "end": 61.71
+    },
+    {
+     "id": "w135",
+     "text": "prosedur",
+     "start": 61.76,
+     "end": 62.13
+    },
+    {
+     "id": "w136",
+     "text": "bisa",
+     "start": 62.18,
+     "end": 62.55
+    },
+    {
+     "id": "w137",
+     "text": "berbeda,",
+     "start": 62.6,
+     "end": 62.97
+    },
+    {
+     "id": "w138",
+     "text": "jadi",
+     "start": 63.02,
+     "end": 63.39
+    },
+    {
+     "id": "w139",
+     "text": "konfirmasi",
+     "start": 63.44,
+     "end": 63.81
+    },
+    {
+     "id": "w140",
+     "text": "ke",
+     "start": 63.86,
+     "end": 64.23
+    },
+    {
+     "id": "w141",
+     "text": "pihak",
+     "start": 64.28,
+     "end": 64.65
+    },
+    {
+     "id": "w142",
+     "text": "resmi",
+     "start": 64.7,
+     "end": 65.07
+    },
+    {
+     "id": "w143",
+     "text": "secepatnya.",
+     "start": 65.12,
+     "end": 65.49
+    },
+    {
+     "id": "w144",
+     "text": "Semoga",
+     "start": 65.79,
+     "end": 66.16
+    },
+    {
+     "id": "w145",
+     "text": "selalu",
+     "start": 66.21,
+     "end": 66.58
+    },
+    {
+     "id": "w146",
+     "text": "selamat",
+     "start": 66.63,
+     "end": 67
+    },
+    {
+     "id": "w147",
+     "text": "di",
+     "start": 67.05,
+     "end": 67.42
+    },
+    {
+     "id": "w148",
+     "text": "jalan.",
+     "start": 67.47,
+     "end": 67.84
+    }
+   ]
+  }
+ ]
+}
