@@ -8,5 +8,5 @@ p6.mp4 - klip presenter AI (lip-sync Kling Avatar v2 dari foto presenter AI buat
 p7.mp4 - klip presenter AI (lip-sync Kling Avatar v2 dari foto presenter AI buatan sendiri), bukan kejadian nyata
 v1-kejadian.mp4 - video ilustrasi buatan AI (image-to-video dari gambar AI sendiri), bukan rekaman kejadian nyata
 b1-kejadian.png, b2-lokasi.png, b3-medis.png, b4-bukti.png, b5-kalender.png - gambar ilustrasi buatan AI (gpt-image), bukan foto kejadian nyata
-dashcam-produk.png - foto listing penjual di Shopee, dipakai sebagai ilustrasi produk tanpa klaim listing
+kamera-produk.png - foto listing penjual di Shopee, dipakai sebagai ilustrasi produk tanpa klaim listing
 Narasi: ElevenLabs (suara AI). Visual lain digambar dengan kode.

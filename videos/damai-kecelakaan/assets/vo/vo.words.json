@@ -667,7 +667,7 @@
  },
  {
   "id": "w111",
-  "text": "perjalanan",
+  "text": "mini",
   "start": 50.68,
   "end": 51.05
  },
@@ -721,170 +721,176 @@
  },
  {
   "id": "w120",
-  "text": "Alat",
+  "text": "Kamera",
   "start": 54.96,
   "end": 55.33
  },
  {
   "id": "w121",
-  "text": "ini",
+  "text": "seperti",
   "start": 55.38,
   "end": 55.75
  },
  {
   "id": "w122",
-  "text": "membantu",
+  "text": "ini",
   "start": 55.8,
   "end": 56.17
  },
  {
   "id": "w123",
-  "text": "merekam,",
+  "text": "membantu",
   "start": 56.22,
   "end": 56.59
  },
  {
   "id": "w124",
-  "text": "bukan",
+  "text": "merekam,",
   "start": 56.64,
   "end": 57.01
  },
  {
   "id": "w125",
-  "text": "jaminan",
+  "text": "bukan",
   "start": 57.06,
   "end": 57.43
  },
  {
   "id": "w126",
-  "text": "penyelesaian",
+  "text": "jaminan",
   "start": 57.48,
   "end": 57.85
  },
  {
   "id": "w127",
-  "text": "hukum.",
+  "text": "penyelesaian",
   "start": 57.9,
   "end": 58.27
  },
  {
   "id": "w128",
-  "text": "Terakhir,",
-  "start": 58.57,
-  "end": 58.94
+  "text": "hukum.",
+  "start": 58.32,
+  "end": 58.69
  },
  {
   "id": "w129",
-  "text": "jangan",
+  "text": "Terakhir,",
   "start": 58.99,
   "end": 59.36
  },
  {
   "id": "w130",
-  "text": "menunda.",
+  "text": "jangan",
   "start": 59.41,
   "end": 59.78
  },
  {
   "id": "w131",
-  "text": "Batas",
-  "start": 60.08,
-  "end": 60.45
+  "text": "menunda.",
+  "start": 59.83,
+  "end": 60.2
  },
  {
   "id": "w132",
-  "text": "waktu",
+  "text": "Batas",
   "start": 60.5,
   "end": 60.87
  },
  {
   "id": "w133",
-  "text": "dan",
+  "text": "waktu",
   "start": 60.92,
   "end": 61.29
  },
  {
   "id": "w134",
-  "text": "prosedur",
+  "text": "dan",
   "start": 61.34,
   "end": 61.71
  },
  {
   "id": "w135",
-  "text": "bisa",
+  "text": "prosedur",
   "start": 61.76,
   "end": 62.13
  },
  {
   "id": "w136",
-  "text": "berbeda,",
+  "text": "bisa",
   "start": 62.18,
   "end": 62.55
  },
  {
   "id": "w137",
-  "text": "jadi",
+  "text": "berbeda,",
   "start": 62.6,
   "end": 62.97
  },
  {
   "id": "w138",
-  "text": "konfirmasi",
+  "text": "jadi",
   "start": 63.02,
   "end": 63.39
  },
  {
   "id": "w139",
-  "text": "ke",
+  "text": "konfirmasi",
   "start": 63.44,
   "end": 63.81
  },
  {
   "id": "w140",
-  "text": "pihak",
+  "text": "ke",
   "start": 63.86,
   "end": 64.23
  },
  {
   "id": "w141",
-  "text": "resmi",
+  "text": "pihak",
   "start": 64.28,
   "end": 64.65
  },
  {
   "id": "w142",
-  "text": "secepatnya.",
+  "text": "resmi",
   "start": 64.7,
   "end": 65.07
  },
  {
   "id": "w143",
-  "text": "Semoga",
-  "start": 65.37,
-  "end": 65.74
+  "text": "secepatnya.",
+  "start": 65.12,
+  "end": 65.49
  },
  {
   "id": "w144",
-  "text": "selalu",
+  "text": "Semoga",
   "start": 65.79,
   "end": 66.16
  },
  {
   "id": "w145",
-  "text": "selamat",
+  "text": "selalu",
   "start": 66.21,
   "end": 66.58
  },
  {
   "id": "w146",
-  "text": "di",
+  "text": "selamat",
   "start": 66.63,
   "end": 67.0
  },
  {
   "id": "w147",
-  "text": "jalan.",
+  "text": "di",
   "start": 67.05,
   "end": 67.42
+ },
+ {
+  "id": "w148",
+  "text": "jalan.",
+  "start": 67.47,
+  "end": 67.84
  }
 ]
