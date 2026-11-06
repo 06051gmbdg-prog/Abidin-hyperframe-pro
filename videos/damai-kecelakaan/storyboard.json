@@ -1,0 +1,171 @@
+{
+ "presenterImage": "presenter-light.png",
+ "light": true,
+ "perScene": true,
+ "keys": [],
+ "scenes": [
+  {
+   "type": "presenter",
+   "at": null,
+   "clip": "p1.mp4",
+   "head": "KELUARGA ANDA<br>KECELAKAAN?"
+  },
+  {
+   "type": "photo",
+   "at": "tunggu",
+   "img": "b1-kejadian.png",
+   "clip": "v1-kejadian.mp4",
+   "desc": "motor berhenti di tepi jalan kota, warga membantu korban duduk dengan aman (tanpa luka, tanpa darah)",
+   "head": "JANGAN BURU-BURU<br>DAMAI DI TEMPAT"
+  },
+  {
+   "type": "presenter",
+   "at": "apa",
+   "clip": "p2.mp4",
+   "head": "APA YANG HARUS<br>DIDAHULUKAN?"
+  },
+  {
+   "type": "ui",
+   "at": "keselamatan",
+   "n": "",
+   "pillLabel": "UTAMAKAN",
+   "topImg": "b2-lokasi.png",
+   "desc": "warga memasang tanda aman di tepi jalan (tanpa teks)",
+   "top": 800,
+   "cardH": 170,
+   "cards": [
+    {
+     "g": "ok",
+     "t": "AMANKAN LOKASI"
+    },
+    {
+     "g": "ok",
+     "t": "PANGGIL BANTUAN"
+    },
+    {
+     "g": "warn2",
+     "t": "JANGAN PINDAHKAN KORBAN"
+    }
+   ],
+   "overlays": [
+    {
+     "at": "amankan"
+    },
+    {
+     "at": "panggil"
+    },
+    {
+     "at": "pindahkan"
+    }
+   ]
+  },
+  {
+   "type": "presenter",
+   "at": "lalu",
+   "clip": "p3.mp4",
+   "head": "LALU APA?"
+  },
+  {
+   "type": "photo",
+   "at": "pastikan",
+   "img": "b3-medis.png",
+   "desc": "pintu IGD rumah sakit Indonesia, petugas medis membantu pasien di brankar, keluarga mendampingi (tanpa darah)",
+   "head": "PASTIKAN KORBAN<br>DITOLONG MEDIS",
+   "sub": "Catat identitas pihak yang terlibat"
+  },
+  {
+   "type": "presenter",
+   "at": "bagaimana",
+   "clip": "p4.mp4",
+   "head": "SOAL SANTUNAN?"
+  },
+  {
+   "type": "stat",
+   "at": "dalam",
+   "n": "",
+   "pillLabel": "INFO",
+   "value": "SESUAI ATURAN",
+   "caption": "SANTUNAN JASA RAHARJA",
+   "sub": "Tidak semua kejadian otomatis memenuhi syarat",
+   "size": 104
+  },
+  {
+   "type": "presenter",
+   "at": "dokumen",
+   "clip": "p5.mp4",
+   "head": "DOKUMEN APA<br>YANG DIURUS?"
+  },
+  {
+   "type": "ui",
+   "at": "koordinasi",
+   "n": "",
+   "pillLabel": "KOORDINASI",
+   "title": "HUBUNGI PIHAK RESMI",
+   "top": 700,
+   "cardH": 190,
+   "cards": [
+    {
+     "g": "ok",
+     "t": "KEPOLISIAN: LAPORAN KECELAKAAN"
+    },
+    {
+     "g": "ok",
+     "t": "RUMAH SAKIT: DOKUMEN MEDIS"
+    },
+    {
+     "g": "ok",
+     "t": "JASA RAHARJA: TANYA SYARAT"
+    }
+   ],
+   "overlays": [
+    {
+     "at": "kepolisian"
+    },
+    {
+     "at": "rumah"
+    },
+    {
+     "at": "jasa"
+    }
+   ]
+  },
+  {
+   "type": "presenter",
+   "at": "bagaimana",
+   "clip": "p6.mp4",
+   "head": "BAGAIMANA<br>DENGAN BUKTI?"
+  },
+  {
+   "type": "photo",
+   "at": "kalau",
+   "img": "b4-bukti.png",
+   "desc": "orang memotret kondisi kendaraan dan lokasi dengan ponsel dari trotoar yang aman",
+   "head": "DOKUMENTASIKAN<br>DENGAN AMAN"
+  },
+  {
+   "type": "product",
+   "at": "contohnya",
+   "pillLabel": "CONTOH PRODUK",
+   "img": "dashcam-produk.png",
+   "name": "KAMERA PERJALANAN",
+   "lines": [
+    "Membantu merekam, bukan jaminan hukum",
+    "Cek spesifikasi dan ulasan pembeli"
+   ]
+  },
+  {
+   "type": "presenter",
+   "at": "terakhir",
+   "clip": "p7.mp4",
+   "head": "JANGAN MENUNDA"
+  },
+  {
+   "type": "photo",
+   "at": "batas",
+   "img": "b5-kalender.png",
+   "desc": "meja dengan berkas laporan, kalender, dan ponsel (tanpa teks terbaca)",
+   "head": "KONFIRMASI KE<br>PIHAK RESMI",
+   "sub": "Edukasi umum, bukan nasihat hukum · link afiliasi di keterangan"
+  }
+ ]
+}

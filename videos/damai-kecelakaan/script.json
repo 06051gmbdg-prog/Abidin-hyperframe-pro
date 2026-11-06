@@ -1,0 +1,21 @@
+{
+ "slug": "damai-kecelakaan",
+ "mode": "tutorial",
+ "voiceId": "nPczCjzI2devNBz1zQrb",
+ "modelId": "eleven_multilingual_v2",
+ "language": "id",
+ "seed": 42,
+ "voiceSettings": {
+  "stability": 0.5,
+  "similarity_boost": 0.8,
+  "style": 0.25,
+  "speed": 1.0,
+  "use_speaker_boost": true
+ },
+ "scenes": [
+  {
+   "id": "vo",
+   "text": "Keluarga Anda kecelakaan di jalan? Tunggu dulu, jangan buru-buru damai di tempat. Apa yang harus didahulukan? Keselamatan. Amankan lokasi, panggil bantuan, dan jangan pindahkan korban yang dicurigai cedera serius, kecuali ada bahaya langsung. Lalu apa? Pastikan korban mendapat pertolongan medis, dan catat identitas pihak yang terlibat. Bagaimana soal santunan? Dalam kondisi tertentu, korban kecelakaan lalu lintas bisa memperoleh santunan Jasa Raharja, sesuai aturan dan hasil verifikasi. Tidak semua kejadian otomatis memenuhi syarat. Dokumen apa yang diurus? Koordinasi dengan kepolisian untuk laporan kecelakaan, rumah sakit, dan Jasa Raharja. Tanyakan dokumen yang dibutuhkan untuk kasus Anda. Bagaimana dengan bukti? Kalau aman, dokumentasikan lokasi, kendaraan, dan saksi. Jangan mengubah atau menghapus rekaman. Contohnya kamera perjalanan di listing ini. Link-nya ada di keterangan video. Alat ini membantu merekam, bukan jaminan penyelesaian hukum. Terakhir, jangan menunda. Batas waktu dan prosedur bisa berbeda, jadi konfirmasi ke pihak resmi secepatnya. Semoga selalu selamat di jalan."
+  }
+ ]
+}
