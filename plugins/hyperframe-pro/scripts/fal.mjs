@@ -116,7 +116,7 @@ if (cmd === "probe") {
   }
 } else if (cmd === "edit") {
   if (!a.prompt || !a.image || !a.out) throw new Error("edit needs --prompt --image --out");
-  const input = { prompt: a.prompt, image_urls: [dataUri(a.image)], quality: a.quality || "high", num_images: 1, output_format: "png" };
+  const input = { prompt: a.prompt, image_urls: String(a.image).split(",").map((f) => dataUri(f.trim())), quality: a.quality || "high", num_images: 1, output_format: "png" };
   const j = await run("openai/gpt-image-2/edit", input, { pollMs: 2500, label: "gpt-image-2/edit" });
   const im = (j.images || [])[0];
   if (!im) throw new Error(`no image: ${JSON.stringify(j).slice(0, 400)}`);

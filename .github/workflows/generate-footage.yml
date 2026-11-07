@@ -61,7 +61,7 @@ jobs:
             image)
               node plugins/hyperframe-pro/scripts/fal.mjs image --prompt "$PROMPT" --size 1088x1920 --out "$FOLDER/$NAME.png" ;;
             edit)
-              [ -f "$SRC" ] || { echo "::error::source_image '$SRC' not found in the repo"; exit 1; }
+              for f in ${SRC//,/ }; do [ -f "$f" ] || { echo "::error::source_image '$f' not found in the repo"; exit 1; }; done
               node plugins/hyperframe-pro/scripts/fal.mjs edit --image "$SRC" --prompt "$PROMPT" --out "$FOLDER/$NAME.png" ;;
             video)
               [ -f "$SRC" ] || { echo "::error::source_image '$SRC' not found in the repo"; exit 1; }
