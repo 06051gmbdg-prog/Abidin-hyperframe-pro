@@ -234,7 +234,7 @@ body{font-family:Inter,system-ui,sans-serif;color:${NAVY};-webkit-font-smoothing
 .ph2{display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(160deg,#FFE3B8,#FFD08A);color:#B8741A;font-size:38px;font-weight:900;line-height:1.3;padding:0 40px}
 .dl1{position:absolute;left:50px;right:50px;top:1380px;text-align:center;font-size:56px;font-weight:900;color:${NAVY};opacity:0;z-index:3}
 .dl2{position:absolute;left:50px;right:50px;top:1460px;text-align:center;font-size:62px;font-weight:900;color:${YEL};opacity:0;z-index:3}
-.light .pres .hd{color:${NAVY};text-shadow:none}
+.light .pres .hd{color:${SB.darkPresenter ? "#FFFFFF" : NAVY};text-shadow:${SB.darkPresenter ? "0 4px 18px rgba(0,0,0,0.65)" : "none"}}
 .light .pres .shade{display:none}
 .light .cap{-webkit-text-stroke:12px ${NAVY};paint-order:stroke fill;text-shadow:none}
 .light .cap mark{-webkit-text-stroke:0}

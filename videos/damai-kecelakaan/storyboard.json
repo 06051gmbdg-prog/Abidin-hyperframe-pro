@@ -1,5 +1,5 @@
 {
- "presenterImage": "presenter-user.png",
+ "presenterImage": "presenter-studio.png",
  "light": true,
  "perScene": true,
  "keys": [],
@@ -167,5 +167,6 @@
    "head": "KONFIRMASI KE<br>PIHAK RESMI",
    "sub": "CEK PRODUK DALAM VIDEO INI · link di keterangan"
   }
- ]
+ ],
+ "darkPresenter": true
 }
