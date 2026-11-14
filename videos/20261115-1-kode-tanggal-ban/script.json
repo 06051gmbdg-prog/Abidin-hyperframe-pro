@@ -1,0 +1,21 @@
+{
+  "slug": "20261115-1-kode-tanggal-ban",
+  "mode": "tutorial",
+  "voiceId": "nPczCjzI2devNBz1zQrb",
+  "modelId": "eleven_multilingual_v2",
+  "language": "id",
+  "seed": 42,
+  "voiceSettings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25,
+    "speed": 1,
+    "use_speaker_boost": true
+  },
+  "scenes": [
+    {
+      "id": "vo",
+      "text": "Tahu usia ban Anda? Di dinding ban ada deretan kode berawalan huruf DOT. Di sanalah tersimpan tanggal produksi ban, jadi Anda bisa tahu seberapa tua ban yang terpasang. Bagaimana cara membacanya? Lihat empat angka terakhir dari kode DOT. Dua angka pertama menunjukkan minggu produksi, dua angka berikutnya menunjukkan tahun produksi. Kenapa usia ban penting? Karet ban bisa mengeras seiring waktu, walau alurnya masih tebal dan jarang dipakai. Ban yang menua cenderung kurang mencengkeram dan lebih mudah retak. Kapan harus waspada? Periksa juga tanda retak halus, benjol, atau karet getas. Jika ragu soal usia atau kondisi ban, periksakan ke bengkel dan ikuti anjuran buku manual kendaraan Anda. Ban adalah satu-satunya yang menyentuh jalan, jadi rawat dengan baik."
+    }
+  ]
+}

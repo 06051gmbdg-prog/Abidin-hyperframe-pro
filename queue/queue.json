@@ -15,5 +15,25 @@
     "status": "draft",
     "topic": "Kebiasaan menahan kopling yang bikin cepat aus",
     "error": "mode dry"
+  },
+  {
+    "slug": "20261115-1-kode-tanggal-ban",
+    "status": "scheduled",
+    "topic": "Cara membaca kode tanggal produksi di ban",
+    "date": "2026-11-15",
+    "posts": [
+      {
+        "channel": "YouTube",
+        "id": "6af8a9fac5b364e0620cd4e3"
+      },
+      {
+        "channel": "Instagram",
+        "id": "6af8a9fa76c23bf1c73364c4"
+      },
+      {
+        "channel": "Facebook",
+        "id": "6af8a9fbe5a113497a9f6d9c"
+      }
+    ]
   }
 ]

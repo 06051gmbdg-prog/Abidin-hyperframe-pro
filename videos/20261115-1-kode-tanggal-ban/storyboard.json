@@ -1,0 +1,69 @@
+{
+  "presenterImage": "presenter-studio.png",
+  "light": true,
+  "darkPresenter": true,
+  "perScene": true,
+  "keys": [],
+  "scenes": [
+    {
+      "type": "presenter",
+      "at": null,
+      "clip": "p1.mp4",
+      "head": "TAHU USIA<br>BAN ANDA?"
+    },
+    {
+      "type": "photo",
+      "at": "Di",
+      "img": "b1.png",
+      "clip": "v1.mp4",
+      "desc": "car tire",
+      "head": "CEK USIA BAN",
+      "sub": "Ada di dinding ban"
+    },
+    {
+      "type": "presenter",
+      "at": "Bagaimana",
+      "clip": "p2.mp4",
+      "head": "BAGAIMANA CARA MEMBACANYA?"
+    },
+    {
+      "type": "photo",
+      "at": "Lihat",
+      "img": "b2.png",
+      "clip": "v2.mp4",
+      "desc": "tire close up",
+      "head": "BACA KODE DOT",
+      "sub": "Minggu lalu tahun"
+    },
+    {
+      "type": "presenter",
+      "at": "Kenapa",
+      "clip": "p3.mp4",
+      "head": "KENAPA USIA<br>BAN PENTING?"
+    },
+    {
+      "type": "photo",
+      "at": "Karet",
+      "img": "b3.png",
+      "clip": "v3.mp4",
+      "desc": "car wheel",
+      "head": "KARET BISA MENUA",
+      "sub": "Alur tebal belum tentu aman"
+    },
+    {
+      "type": "presenter",
+      "at": "Kapan",
+      "clip": "p4.mp4",
+      "head": "KAPAN HARUS WASPADA?"
+    },
+    {
+      "type": "photo",
+      "at": "Periksa",
+      "img": "b4.png",
+      "clip": "v4.mp4",
+      "desc": "mechanic hands",
+      "head": "PERIKSAKAN KE BENGKEL",
+      "sub": "Cek produk di link keterangan"
+    }
+  ]
+}
