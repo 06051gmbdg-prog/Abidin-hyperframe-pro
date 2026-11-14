@@ -1,0 +1,35 @@
+name: daily-buffer
+on:
+  schedule:
+    - cron: "0 3 * * *"   # 10:00 WIB, menjadwalkan tayang besok
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "post / dry (tanpa kirim) / check (cek koneksi Buffer)"
+        type: choice
+        default: post
+        options: [post, dry, check]
+permissions:
+  contents: write
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Jadwalkan ke Buffer
+        env:
+          BUFFER_TOKEN: ${{ secrets.BUFFER_TOKEN }}
+          MODE: ${{ inputs.mode || 'post' }}
+        run: |
+          case "$MODE" in
+            check) node plugins/hyperframe-pro/scripts/buffer-queue.mjs --check ;;
+            dry)   node plugins/hyperframe-pro/scripts/buffer-queue.mjs --dry ;;
+            *)     node plugins/hyperframe-pro/scripts/buffer-queue.mjs ;;
+          esac
+      - name: Simpan status antrian
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add queue/queue.json
+          git diff --cached --quiet || { git commit -m "queue: video terjadwal ke Buffer"; git push; }
