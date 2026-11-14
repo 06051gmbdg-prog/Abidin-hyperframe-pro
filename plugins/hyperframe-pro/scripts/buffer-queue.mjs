@@ -34,7 +34,7 @@ if (flag("check")) {
 }
 
 const queue = JSON.parse(fs.readFileSync(QFILE, "utf8"));
-const item = queue.find((q) => q.status === "ready");
+const item = opt("slug") ? queue.find((q) => q.slug === opt("slug")) : queue.find((q) => q.status === "ready");
 if (!item) { console.log("Antrian kosong: tidak ada video berstatus 'ready'. Buat video baru dulu."); process.exit(0); }
 
 const post = JSON.parse(fs.readFileSync(path.join(ROOT, "videos", item.slug, "publish/post.json"), "utf8"));
@@ -44,20 +44,26 @@ if (!head.ok) { console.error(`Video tidak bisa diakses (${head.status}): ${vide
 
 const wib = new Date(Date.now() + 7 * 3600e3);
 const tomorrow = new Date(wib.getTime() + 86400e3).toISOString().slice(0, 10);
-const date = opt("date") || tomorrow;
+const FIXED = opt("time"); // HH:MM WIB untuk SEMUA channel, hari ini (dipakai alur otomatis 12:00 dan 16:00)
+const date = opt("date") || (FIXED ? wib.toISOString().slice(0, 10) : tomorrow);
 const tag = (arr) => arr.map((h) => (h.startsWith("#") ? h : "#" + h)).join(" ");
 const body = (c) => `${c}\n\n${post.disclosure || CFG.disclosure}\n\n${tag(post.hashtags)}`;
 
+const jt = (t) => FIXED || t;
 const jobs = [
-  { name: "YouTube", channelId: CFG.channels.youtube, time: CFG.times.youtube, text: body(post.caption), metadata: { youtube: { title: post.title, categoryId: "26", madeForKids: false, isAiGenerated: true } } },
-  { name: "Instagram", channelId: CFG.channels.instagram, time: CFG.times.instagram, text: body(post.caption), metadata: { instagram: { type: "reel", shouldShareToFeed: true, isAiGenerated: true } } },
-  { name: "Facebook", channelId: CFG.channels.facebook, time: CFG.times.facebook, text: body(post.caption), metadata: { facebook: { type: "reel" } } },
+  { name: "YouTube", channelId: CFG.channels.youtube, time: jt(CFG.times.youtube), text: body(post.caption), metadata: { youtube: { title: post.title, categoryId: "26", madeForKids: false, isAiGenerated: true } } },
+  { name: "Instagram", channelId: CFG.channels.instagram, time: jt(CFG.times.instagram), text: body(post.caption), metadata: { instagram: { type: "reel", shouldShareToFeed: true, isAiGenerated: true } } },
+  { name: "Facebook", channelId: CFG.channels.facebook, time: jt(CFG.times.facebook), text: body(post.caption), metadata: { facebook: { type: "reel" } } },
 ];
 
+const dueFor = (t) => { // jam sudah lewat / kurang dari 10 menit lagi -> geser ke 15 menit dari sekarang (WIB)
+  const at = new Date(`${date}T${t}:00+07:00`);
+  return (at.getTime() < Date.now() + 10 * 60e3 ? new Date(Date.now() + 15 * 60e3) : at).toISOString();
+};
 const M = `mutation($input: CreatePostInput!){ createPost(input:$input){ ... on PostActionSuccess { post { id status dueAt channelId } } ... on MutationError { message } } }`;
 const ids = [];
 for (const j of jobs) {
-  const input = { channelId: j.channelId, text: j.text, schedulingType: "automatic", mode: "customScheduled", dueAt: `${date}T${j.time}:00+07:00`, assets: [{ video: { url: videoUrl } }], metadata: j.metadata };
+  const input = { channelId: j.channelId, text: j.text, schedulingType: "automatic", mode: "customScheduled", dueAt: dueFor(j.time), assets: [{ video: { url: videoUrl } }], metadata: j.metadata };
   if (flag("dry")) { console.log(j.name, JSON.stringify(input).slice(0, 400)); continue; }
   const d = await gql(M, { input });
   const r = d.createPost;

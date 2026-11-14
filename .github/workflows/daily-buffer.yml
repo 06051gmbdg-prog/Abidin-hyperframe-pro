@@ -1,7 +1,6 @@
+# Manual saja (video buatan sendiri berstatus ready). Alur harian otomatis ada di auto-daily.yml.
 name: daily-buffer
 on:
-  schedule:
-    - cron: "0 3 * * *"   # 10:00 WIB, menjadwalkan tayang besok
   workflow_dispatch:
     inputs:
       mode:
