@@ -188,7 +188,7 @@ for (const g of narr.segs) {
     pixIds.push(hit.id);
     sources.push(`${clip} - footage stok Pixabay ${hit.pageURL} (kontributor ${hit.user}), Pixabay Content License, ilustrasi umum bukan rekaman kejadian tertentu`);
   } else sources.push(`${clip} - footage stok Pixabay (uji tanpa unduh)`);
-  scenes.push({ type: "photo", at: g.at, img: `b${g.i + 1}.png`, clip, desc: s.query, head: br(s.head.toUpperCase()), sub: g.i === plan.sections.length - 1 ? "Cek produk di link keterangan" : (s.sub || undefined) });
+  scenes.push({ type: "photo", at: g.at, img: `b${g.i + 1}.png`, clip, desc: s.query, head: br(s.head.toUpperCase()), sub: s.sub || undefined });
 }
 fs.writeFileSync(path.join(dir, "publish/sources.txt"), sources.join("\n") + "\n");
 
