@@ -1,0 +1,69 @@
+{
+  "presenterImage": "presenter-studio.png",
+  "light": true,
+  "darkPresenter": true,
+  "perScene": true,
+  "keys": [],
+  "scenes": [
+    {
+      "type": "presenter",
+      "at": null,
+      "clip": "p1.mp4",
+      "head": "REM ANDA<br>TIBA-TIBA BERBUNYI?"
+    },
+    {
+      "type": "photo",
+      "at": "Bunyi",
+      "img": "b1.png",
+      "clip": "v1.mp4",
+      "desc": "car brake",
+      "head": "REM BERBUNYI",
+      "sub": "Itu tanda dari kendaraan"
+    },
+    {
+      "type": "presenter",
+      "at": "mencicit",
+      "clip": "p2.mp4",
+      "head": "BUNYI MENCICIT<br>SAAT MENGEREM?"
+    },
+    {
+      "type": "photo",
+      "at": "Bunyi",
+      "img": "b2.png",
+      "clip": "v2.mp4",
+      "desc": "motorcycle wheel",
+      "head": "BUNYI MENCICIT",
+      "sub": "Kampas mungkin mulai menipis"
+    },
+    {
+      "type": "presenter",
+      "at": "Bagaimana",
+      "clip": "p3.mp4",
+      "head": "BAGAIMANA KALAU<br>BUNYINYA MENGGERUS?"
+    },
+    {
+      "type": "photo",
+      "at": "atau",
+      "img": "b3.png",
+      "clip": "v3.mp4",
+      "desc": "mechanic hands",
+      "head": "BUNYI MENGGERUS",
+      "sub": "Jangan dipaksakan"
+    },
+    {
+      "type": "presenter",
+      "at": "Lalu",
+      "clip": "p4.mp4",
+      "head": "LALU APA YANG<br>HARUS DILAKUKAN?"
+    },
+    {
+      "type": "photo",
+      "at": "Kurangi",
+      "img": "b4.png",
+      "clip": "v4.mp4",
+      "desc": "car workshop",
+      "head": "PERIKSAKAN KE BENGKEL",
+      "sub": "Cek produk di link keterangan"
+    }
+  ]
+}

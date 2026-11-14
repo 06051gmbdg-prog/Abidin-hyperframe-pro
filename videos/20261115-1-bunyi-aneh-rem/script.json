@@ -1,0 +1,21 @@
+{
+  "slug": "20261115-1-bunyi-aneh-rem",
+  "mode": "tutorial",
+  "voiceId": "nPczCjzI2devNBz1zQrb",
+  "modelId": "eleven_multilingual_v2",
+  "language": "id",
+  "seed": 42,
+  "voiceSettings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25,
+    "speed": 1,
+    "use_speaker_boost": true
+  },
+  "scenes": [
+    {
+      "id": "vo",
+      "text": "Rem Anda tiba-tiba berbunyi? Bunyi dari rem adalah cara kendaraan memberi tanda. Jangan diabaikan, sebab rem adalah komponen keselamatan utama. Dengarkan jenis bunyinya untuk mengetahui kemungkinan penyebabnya. Bunyi mencicit saat mengerem? Bunyi mencicit sering muncul ketika kampas rem mulai menipis, atau permukaannya licin dan berdebu. Pada sebagian kampas, ada penanda aus yang sengaja dibuat berbunyi. Bagaimana kalau bunyinya menggerus? Bunyi menggerus atau kasar bisa berarti kampas sudah habis hingga logam bertemu cakram. Kondisi ini bisa merusak cakram dan mengurangi daya pengereman, jadi jangan dipaksakan. Lalu apa yang harus dilakukan? Kurangi kecepatan, jaga jarak aman, dan hindari perjalanan jauh. Segera periksakan ke bengkel, terutama bila rem terasa bergetar, terlalu dalam, atau kurang pakem. Rem berbunyi bukan untuk diabaikan, segera periksakan ke bengkel."
+    }
+  ]
+}

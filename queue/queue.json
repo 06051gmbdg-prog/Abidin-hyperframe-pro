@@ -1,3 +1,13 @@
 [
-  { "slug": "damai-kecelakaan", "status": "draft", "note": "Ubah ke ready setelah render final (suara asli, bukan preview) dan post.json lengkap." }
+  {
+    "slug": "damai-kecelakaan",
+    "status": "draft",
+    "note": "Ubah ke ready setelah render final (suara asli, bukan preview) dan post.json lengkap."
+  },
+  {
+    "slug": "20261115-1-bunyi-aneh-rem",
+    "status": "draft",
+    "topic": "Bunyi aneh dari rem dan artinya",
+    "error": "mode dry"
+  }
 ]
