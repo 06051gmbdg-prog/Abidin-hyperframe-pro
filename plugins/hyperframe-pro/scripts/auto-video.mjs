@@ -49,7 +49,11 @@ async function claude(prompt, maxTokens = 3000) {
   if (!r.ok) throw new Error(`Anthropic API ${r.status}: ${JSON.stringify(j).slice(0, 400)}`);
   return j.content.map((c) => c.text || "").join("");
 }
-const parseJson = (t) => JSON.parse(t.replace(/^```(?:json)?/m, "").replace(/```\s*$/m, "").trim().match(/\{[\s\S]*\}/)[0]);
+const parseJson = (t) => {
+  const m = t.replace(/^```(?:json)?/m, "").replace(/```\s*$/m, "").trim().match(/\{[\s\S]*\}/);
+  if (!m) throw new Error(`respons bukan JSON: ${JSON.stringify(t.slice(0, 300))}`);
+  try { return JSON.parse(m[0]); } catch (e) { throw new Error(`JSON rusak (${e.message}): ${JSON.stringify(t.slice(0, 200))}`); }
+};
 
 const productLine = PRODUCT.name ? `Produk afiliasi yang akan ditempel: ${PRODUCT.name}. Topik HARUS relevan dengan produk ini.` : "Produk afiliasi belum diketahui namanya, jadi pilih topik otomotif umum dan JANGAN menyebut atau menjelaskan produk tertentu.";
 const used = HIST.map((h) => `- ${h.topic}`).join("\n") || "(belum ada)";
