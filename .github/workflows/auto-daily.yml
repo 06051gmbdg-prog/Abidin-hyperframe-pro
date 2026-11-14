@@ -15,6 +15,11 @@ on:
         type: choice
         default: full
         options: [full, dry]
+      resume:
+        description: "yes = lanjutkan setelah ada video gagal (kegagalan lama diakui)"
+        type: choice
+        default: "no"
+        options: ["no", "yes"]
 permissions:
   contents: write
 concurrency:
@@ -60,4 +65,5 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           COUNT: ${{ inputs.count || '2' }}
           MODE: ${{ inputs.mode || 'full' }}
+          RESUME: ${{ inputs.resume || 'no' }}
         run: bash plugins/hyperframe-pro/scripts/auto-daily.sh

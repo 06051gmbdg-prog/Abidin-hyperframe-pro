@@ -41,11 +41,25 @@ make_one() {
   commit_meta "$slug"
 }
 
+# Henti total: kalau ada video gagal yang belum diakui, jangan produksi apa pun (hindari buang biaya berulang).
+if [ "$MODE" = full ]; then
+  nfail=$(node -e 'const q=JSON.parse(require("fs").readFileSync("queue/queue.json"));console.log(q.filter(x=>x.status==="failed").length)')
+  if [ "$nfail" -gt 0 ]; then
+    if [ "${RESUME:-no}" = yes ]; then
+      node -e 'const fs=require("fs");const q=JSON.parse(fs.readFileSync("queue/queue.json"));q.forEach(x=>{if(x.status==="failed")x.status="failed-ack"});fs.writeFileSync("queue/queue.json",JSON.stringify(q,null,2)+"\n")'
+      echo "Lanjut atas permintaan (resume=yes): kegagalan sebelumnya diakui."
+    else
+      echo "::error::OTOMATISASI BERHENTI: ada $nfail video gagal di queue/queue.json. Perbaiki penyebabnya, lalu jalankan manual dengan resume=yes."
+      exit 1
+    fi
+  fi
+fi
+
 ok=0
 for n in $(seq 1 "$COUNT"); do
   echo "::group::Video $n (tayang ${SLOTS[$((n-1))]} WIB)"
-  if make_one "$n" "${SLOTS[$((n-1))]}"; then ok=$((ok+1)); else echo "::error::Video $n gagal"; fi
-  echo "::endgroup::"
+  if make_one "$n" "${SLOTS[$((n-1))]}"; then ok=$((ok+1)); echo "::endgroup::"
+  else echo "::endgroup::"; echo "::error::Video $n gagal. Otomatisasi dihentikan, video berikutnya tidak dibuat."; halted=1; break; fi
 done
 
 # bersihkan branch render yang lebih tua dari 3 hari
@@ -55,4 +69,4 @@ for b in $(git ls-remote --heads origin 'renders-2*' | sed 's#.*refs/heads/##');
   [[ "$d" =~ ^[0-9]{8}$ ]] && [ "$d" -lt "$cutoff" ] && git push -q origin --delete "$b" || true
 done
 echo "Selesai: $ok dari $COUNT video"
-[ "$ok" -gt 0 ] || exit 1
+[ "${halted:-0}" = 0 ] || exit 1
