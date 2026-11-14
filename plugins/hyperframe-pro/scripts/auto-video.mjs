@@ -87,8 +87,8 @@ ${feedback ? `\nPERBAIKAN dari percobaan sebelumnya: ${feedback}\n` : ""}`;
 }
 
 async function review(plan, text) {
-  const t = await claude(`Kamu pemeriksa fakta otomotif. Periksa naskah video ini. Balas HANYA JSON {"ok":true|false,"masalah":["..."]}. ok=false jika ada klaim faktual yang mungkin salah, angka spesifik tanpa dasar kuat, saran yang bisa membahayakan, atau klaim berlebihan.\n\nTopik: ${plan.topic}\nNaskah: ${text}`, 800);
-  return parseJson(t);
+  const t = await claude(`Kamu pemeriksa fakta otomotif. Periksa naskah video ini. Balas HANYA JSON ringkas {"ok":true|false,"masalah":["maks 2 butir, masing-masing 1 kalimat pendek"]}. ok=false jika ada klaim faktual yang mungkin salah, angka spesifik tanpa dasar kuat, saran yang bisa membahayakan, atau klaim berlebihan.\n\nTopik: ${plan.topic}\nNaskah: ${text}`, 1500);
+  try { return parseJson(t); } catch { return /"ok"\s*:\s*true/.test(t) ? { ok: true } : { ok: false, masalah: [t.slice(0, 500)] }; }
 }
 
 // naskah -> kata -> cue otomatis (kata awal tiap segmen yang pasti ter-resolve ke posisi yang benar)
