@@ -162,7 +162,13 @@ async function pixabay(q, outFile) {
   const r = await fetch(`https://pixabay.com/api/videos/?key=${key}&q=${encodeURIComponent(q)}&per_page=20&safesearch=true`);
   if (!r.ok) throw new Error(`Pixabay ${r.status}`);
   const j = await r.json();
-  const hit = (j.hits || []).find((h) => h.duration >= 6 && (h.videos.medium?.url || h.videos.large?.url) && !HIST.some((x) => (x.pixabay || []).includes(h.id)));
+  // relevansi: tag harus bertema otomotif; utamakan yang memuat kata kunci query (cegah footage nyasar, mis. lipstik)
+  const AUTO = /\b(car|cars|motorcycle|motorbike|scooter|road|traffic|highway|tire|tyre|wheel|engine|mechanic|garage|vehicle|driving|brake|automotive|repair|truck|bike)\b/i;
+  const BAD = /\b(lipstick|makeup|cosmetic|fashion|model|woman|girl|beauty|nail|food|cooking)\b/i;
+  const qw = q.toLowerCase().split(/\s+/).filter((w) => w.length >= 4);
+  const ok = (h) => h.duration >= 6 && (h.videos.medium?.url || h.videos.large?.url) && !HIST.some((x) => (x.pixabay || []).includes(h.id)) && AUTO.test(h.tags) && !BAD.test(h.tags);
+  const hits = (j.hits || []).filter(ok);
+  const hit = hits.find((h) => qw.some((w) => h.tags.toLowerCase().includes(w))) || hits[0];
   if (!hit) return null;
   const v = hit.videos.medium?.url ? hit.videos.medium : hit.videos.large;
   const d = await fetch(v.url); if (!d.ok) throw new Error(`unduh Pixabay ${d.status}`);
@@ -177,7 +183,7 @@ for (const g of narr.segs) {
   const clip = `v${g.i + 1}.mp4`;
   if (!flag("no-pixabay")) {
     let hit = null;
-    for (const q of [s.query, s.query.split(" ")[0] + " road", "car road"]) { hit = await pixabay(q, path.join(dir, "assets/clips", clip)); if (hit) break; }
+    for (const q of [s.query, s.query.split(" ")[0] + " car", "car road", "motorcycle road", "car engine"]) { hit = await pixabay(q, path.join(dir, "assets/clips", clip)); if (hit) break; }
     if (!hit) throw new Error(`tidak ada klip Pixabay untuk "${s.query}"`);
     pixIds.push(hit.id);
     sources.push(`${clip} - footage stok Pixabay ${hit.pageURL} (kontributor ${hit.user}), Pixabay Content License, ilustrasi umum bukan rekaman kejadian tertentu`);

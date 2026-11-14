@@ -18,7 +18,7 @@
   },
   {
     "slug": "20261115-1-kode-tanggal-ban",
-    "status": "scheduled",
+    "status": "held",
     "topic": "Cara membaca kode tanggal produksi di ban",
     "date": "2026-11-15",
     "posts": [
@@ -34,6 +34,7 @@
         "channel": "Facebook",
         "id": "6af8a9fbe5a113497a9f6d9c"
       }
-    ]
+    ],
+    "error": "footage Pixabay tidak relevan (lipstik); post dihapus/ditahan"
   }
 ]
