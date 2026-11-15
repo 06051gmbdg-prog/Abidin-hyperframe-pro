@@ -1,0 +1,7 @@
+# Sumber video hak-data-bocor
+p1.mp4 - klip presenter AI (lip-sync dari foto presenter milik pengguna)
+p2.mp4 - klip presenter AI (lip-sync dari foto presenter milik pengguna)
+p3.mp4 - klip presenter AI (lip-sync dari foto presenter milik pengguna)
+p4.mp4 - klip presenter AI (lip-sync dari foto presenter milik pengguna)
+b1-data.png, b2-advokat.png - gambar ilustrasi buatan AI (gpt-image), bukan foto kejadian nyata
+Dasar hukum (diverifikasi 15 Nov 2026): UU No. 27 Tahun 2022 Pasal 5-9, 12, 46, 57 (pasal.id). Status lembaga PDP: belum terbentuk per 5 Nov 2026 (katadata.co.id).

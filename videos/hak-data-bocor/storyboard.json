@@ -1,0 +1,188 @@
+{
+ "presenterImage": "presenter-studio.png",
+ "light": true,
+ "darkPresenter": true,
+ "perScene": true,
+ "keys": [],
+ "scenes": [
+  {
+   "type": "presenter",
+   "at": null,
+   "clip": "p1.mp4",
+   "head": "DATA ANDA<br>BOCOR?"
+  },
+  {
+   "type": "photo",
+   "at": "perusahaan",
+   "img": "b1-data.png",
+   "desc": "orang cemas menatap laptop di meja kerja malam hari, layar tanpa teks terbaca",
+   "head": "WAJIB MEMBERI<br>TAHU ANDA",
+   "sub": "UU No. 27 Tahun 2022 (UU PDP)"
+  },
+  {
+   "type": "presenter",
+   "at": "apa",
+   "clip": "p2.mp4",
+   "head": "APA<br>KEWAJIBANNYA?"
+  },
+  {
+   "type": "stat",
+   "at": "pasal",
+   "n": "",
+   "pillLabel": "UU PDP",
+   "value": "PASAL 46",
+   "caption": "KEGAGALAN PELINDUNGAN DATA",
+   "sub": "Pengendali data wajib memberi tahu",
+   "size": 110
+  },
+  {
+   "type": "stat",
+   "at": "paling",
+   "n": "",
+   "pillLabel": "BATAS WAKTU",
+   "value": "3×24 JAM",
+   "caption": "PEMBERITAHUAN TERTULIS",
+   "sub": "Kepada Anda sebagai pemilik data",
+   "size": 120
+  },
+  {
+   "type": "ui",
+   "at": "isinya",
+   "n": "",
+   "pillLabel": "ISI MINIMAL",
+   "title": "PEMBERITAHUAN MEMUAT",
+   "top": 720,
+   "cardH": 190,
+   "cards": [
+    {
+     "g": "ok",
+     "t": "DATA YANG TERUNGKAP"
+    },
+    {
+     "g": "ok",
+     "t": "KAPAN DAN BAGAIMANA BOCORNYA"
+    },
+    {
+     "g": "ok",
+     "t": "UPAYA PENANGANAN"
+    }
+   ],
+   "overlays": [
+    {
+     "at": "data"
+    },
+    {
+     "at": "kapan"
+    },
+    {
+     "at": "upaya"
+    }
+   ]
+  },
+  {
+   "type": "presenter",
+   "at": "apa",
+   "clip": "p3.mp4",
+   "head": "APA HAK<br>ANDA?"
+  },
+  {
+   "type": "ui",
+   "at": "berhak",
+   "n": "",
+   "pillLabel": "HAK ANDA",
+   "title": "ANDA BERHAK",
+   "top": 640,
+   "cardH": 170,
+   "cards": [
+    {
+     "g": "ok",
+     "t": "TAHU PENGGUNAAN DATA · PASAL 5"
+    },
+    {
+     "g": "ok",
+     "t": "MINTA SALINAN · PASAL 7"
+    },
+    {
+     "g": "ok",
+     "t": "HENTIKAN DAN HAPUS · PASAL 8"
+    },
+    {
+     "g": "ok",
+     "t": "TARIK PERSETUJUAN · PASAL 9"
+    }
+   ],
+   "overlays": [
+    {
+     "at": "tahu"
+    },
+    {
+     "at": "salinannya"
+    },
+    {
+     "at": "dihentikan"
+    },
+    {
+     "at": "menarik"
+    }
+   ]
+  },
+  {
+   "type": "presenter",
+   "at": "kalau",
+   "clip": "p4.mp4",
+   "head": "KALAU TIDAK<br>BERES?"
+  },
+  {
+   "type": "ui",
+   "at": "kirim",
+   "n": "",
+   "pillLabel": "LANGKAH",
+   "title": "JIKA TIDAK DIGUBRIS",
+   "top": 700,
+   "cardH": 190,
+   "cards": [
+    {
+     "g": "ok",
+     "t": "EMAIL RESMI, SIMPAN BUKTI KIRIM"
+    },
+    {
+     "g": "ok",
+     "t": "GUGAT DAN GANTI RUGI · PASAL 12"
+    },
+    {
+     "g": "warn2",
+     "t": "DENDA MAKS. 2% PENDAPATAN · PASAL 57"
+    }
+   ],
+   "overlays": [
+    {
+     "at": "email"
+    },
+    {
+     "at": "menggugat"
+    },
+    {
+     "at": "sanksi"
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "at": "namun",
+   "n": "",
+   "pillLabel": "CATATAN",
+   "value": "BELUM ADA",
+   "caption": "LEMBAGA PENGAWAS RESMI",
+   "sub": "Penegakan masih menunggu",
+   "size": 104
+  },
+  {
+   "type": "photo",
+   "at": "informasi",
+   "img": "b2-advokat.png",
+   "desc": "orang menulis catatan di meja dengan berkas dan ponsel, tanpa teks terbaca",
+   "head": "BUKAN<br>NASIHAT HUKUM",
+   "sub": "Konsultasikan ke advokat atau LBH"
+  }
+ ]
+}

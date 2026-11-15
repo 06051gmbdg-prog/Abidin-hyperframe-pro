@@ -1,0 +1,21 @@
+{
+ "slug": "hak-data-bocor",
+ "mode": "tutorial",
+ "voiceId": "nPczCjzI2devNBz1zQrb",
+ "modelId": "eleven_multilingual_v2",
+ "language": "id",
+ "seed": 42,
+ "voiceSettings": {
+  "stability": 0.5,
+  "similarity_boost": 0.8,
+  "style": 0.25,
+  "speed": 1.0,
+  "use_speaker_boost": true
+ },
+ "scenes": [
+  {
+   "id": "vo",
+   "text": "Data Anda bocor? Perusahaan wajib memberi tahu Anda. Banyak yang memilih diam. Padahal Undang-Undang Pelindungan Data Pribadi mengatur kewajibannya. Apa kewajibannya? Pasal empat puluh enam: kalau terjadi kegagalan pelindungan data, pengendali data wajib memberi tahu Anda secara tertulis, paling lambat tiga kali dua puluh empat jam. Isinya minimal memuat data apa yang terungkap, kapan dan bagaimana bocornya, serta upaya penanganannya. Apa hak Anda? Anda berhak tahu untuk apa data dipakai, meminta salinannya, meminta pemrosesan dihentikan atau data dihapus, dan menarik persetujuan. Hak-hak ini diatur antara lain di pasal lima sampai sembilan. Kalau tidak beres? Kirim email resmi ke kontak privasi perusahaan, dan simpan bukti kirimnya. Anda juga berhak menggugat dan menerima ganti rugi, menurut pasal dua belas. Pelanggar bisa dikenai sanksi administratif, dendanya paling tinggi dua persen dari pendapatan tahunan. Namun lembaga pengawasnya belum resmi terbentuk, jadi penegakannya masih menunggu. Informasi umum, bukan nasihat hukum. Untuk kasus Anda, konsultasikan ke advokat atau LBH."
+  }
+ ]
+}
