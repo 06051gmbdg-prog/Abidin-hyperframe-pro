@@ -1,0 +1,934 @@
+{
+ "voiceId": "nPczCjzI2devNBz1zQrb",
+ "modelId": "eleven_multilingual_v2",
+ "scenes": [
+  {
+   "id": "vo",
+   "text": "Data Anda bocor? Perusahaan wajib memberi tahu Anda. Banyak yang memilih diam. Padahal Undang-Undang Pelindungan Data Pribadi mengatur kewajibannya. Apa kewajibannya? Pasal empat puluh enam: kalau terjadi kegagalan pelindungan data, pengendali data wajib memberi tahu Anda secara tertulis, paling lambat tiga kali dua puluh empat jam. Isinya minimal memuat data apa yang terungkap, kapan dan bagaimana bocornya, serta upaya penanganannya. Apa hak Anda? Anda berhak tahu untuk apa data dipakai, meminta salinannya, meminta pemrosesan dihentikan atau data dihapus, dan menarik persetujuan. Hak-hak ini diatur antara lain di pasal lima sampai sembilan. Kalau tidak beres? Kirim email resmi ke kontak privasi perusahaan, dan simpan bukti kirimnya. Anda juga berhak menggugat dan menerima ganti rugi, menurut pasal dua belas. Pelanggar bisa dikenai sanksi administratif, dendanya paling tinggi dua persen dari pendapatan tahunan. Namun lembaga pengawasnya belum resmi terbentuk, jadi penegakannya masih menunggu. Informasi umum, bukan nasihat hukum. Untuk kasus Anda, konsultasikan ke advokat atau LBH.",
+   "wav": "vo.wav",
+   "duration": 75,
+   "speechStart": 0.06,
+   "speechEnd": 68.52,
+   "words": [
+    {
+     "id": "w0",
+     "text": "Data",
+     "start": 0.06,
+     "end": 0.43
+    },
+    {
+     "id": "w1",
+     "text": "Anda",
+     "start": 0.48,
+     "end": 0.85
+    },
+    {
+     "id": "w2",
+     "text": "bocor?",
+     "start": 0.9,
+     "end": 1.27
+    },
+    {
+     "id": "w3",
+     "text": "Perusahaan",
+     "start": 1.57,
+     "end": 1.94
+    },
+    {
+     "id": "w4",
+     "text": "wajib",
+     "start": 1.99,
+     "end": 2.36
+    },
+    {
+     "id": "w5",
+     "text": "memberi",
+     "start": 2.41,
+     "end": 2.78
+    },
+    {
+     "id": "w6",
+     "text": "tahu",
+     "start": 2.83,
+     "end": 3.2
+    },
+    {
+     "id": "w7",
+     "text": "Anda.",
+     "start": 3.25,
+     "end": 3.62
+    },
+    {
+     "id": "w8",
+     "text": "Banyak",
+     "start": 3.92,
+     "end": 4.29
+    },
+    {
+     "id": "w9",
+     "text": "yang",
+     "start": 4.34,
+     "end": 4.71
+    },
+    {
+     "id": "w10",
+     "text": "memilih",
+     "start": 4.76,
+     "end": 5.13
+    },
+    {
+     "id": "w11",
+     "text": "diam.",
+     "start": 5.18,
+     "end": 5.55
+    },
+    {
+     "id": "w12",
+     "text": "Padahal",
+     "start": 5.85,
+     "end": 6.22
+    },
+    {
+     "id": "w13",
+     "text": "Undang-Undang",
+     "start": 6.27,
+     "end": 6.64
+    },
+    {
+     "id": "w14",
+     "text": "Pelindungan",
+     "start": 6.69,
+     "end": 7.06
+    },
+    {
+     "id": "w15",
+     "text": "Data",
+     "start": 7.11,
+     "end": 7.48
+    },
+    {
+     "id": "w16",
+     "text": "Pribadi",
+     "start": 7.53,
+     "end": 7.9
+    },
+    {
+     "id": "w17",
+     "text": "mengatur",
+     "start": 7.95,
+     "end": 8.32
+    },
+    {
+     "id": "w18",
+     "text": "kewajibannya.",
+     "start": 8.37,
+     "end": 8.74
+    },
+    {
+     "id": "w19",
+     "text": "Apa",
+     "start": 9.04,
+     "end": 9.41
+    },
+    {
+     "id": "w20",
+     "text": "kewajibannya?",
+     "start": 9.46,
+     "end": 9.83
+    },
+    {
+     "id": "w21",
+     "text": "Pasal",
+     "start": 10.13,
+     "end": 10.5
+    },
+    {
+     "id": "w22",
+     "text": "empat",
+     "start": 10.55,
+     "end": 10.92
+    },
+    {
+     "id": "w23",
+     "text": "puluh",
+     "start": 10.97,
+     "end": 11.34
+    },
+    {
+     "id": "w24",
+     "text": "enam:",
+     "start": 11.39,
+     "end": 11.76
+    },
+    {
+     "id": "w25",
+     "text": "kalau",
+     "start": 12.06,
+     "end": 12.43
+    },
+    {
+     "id": "w26",
+     "text": "terjadi",
+     "start": 12.48,
+     "end": 12.85
+    },
+    {
+     "id": "w27",
+     "text": "kegagalan",
+     "start": 12.9,
+     "end": 13.27
+    },
+    {
+     "id": "w28",
+     "text": "pelindungan",
+     "start": 13.32,
+     "end": 13.69
+    },
+    {
+     "id": "w29",
+     "text": "data,",
+     "start": 13.74,
+     "end": 14.11
+    },
+    {
+     "id": "w30",
+     "text": "pengendali",
+     "start": 14.16,
+     "end": 14.53
+    },
+    {
+     "id": "w31",
+     "text": "data",
+     "start": 14.58,
+     "end": 14.95
+    },
+    {
+     "id": "w32",
+     "text": "wajib",
+     "start": 15,
+     "end": 15.37
+    },
+    {
+     "id": "w33",
+     "text": "memberi",
+     "start": 15.42,
+     "end": 15.79
+    },
+    {
+     "id": "w34",
+     "text": "tahu",
+     "start": 15.84,
+     "end": 16.21
+    },
+    {
+     "id": "w35",
+     "text": "Anda",
+     "start": 16.26,
+     "end": 16.63
+    },
+    {
+     "id": "w36",
+     "text": "secara",
+     "start": 16.68,
+     "end": 17.05
+    },
+    {
+     "id": "w37",
+     "text": "tertulis,",
+     "start": 17.1,
+     "end": 17.47
+    },
+    {
+     "id": "w38",
+     "text": "paling",
+     "start": 17.52,
+     "end": 17.89
+    },
+    {
+     "id": "w39",
+     "text": "lambat",
+     "start": 17.94,
+     "end": 18.31
+    },
+    {
+     "id": "w40",
+     "text": "tiga",
+     "start": 18.36,
+     "end": 18.73
+    },
+    {
+     "id": "w41",
+     "text": "kali",
+     "start": 18.78,
+     "end": 19.15
+    },
+    {
+     "id": "w42",
+     "text": "dua",
+     "start": 19.2,
+     "end": 19.57
+    },
+    {
+     "id": "w43",
+     "text": "puluh",
+     "start": 19.62,
+     "end": 19.99
+    },
+    {
+     "id": "w44",
+     "text": "empat",
+     "start": 20.04,
+     "end": 20.41
+    },
+    {
+     "id": "w45",
+     "text": "jam.",
+     "start": 20.46,
+     "end": 20.83
+    },
+    {
+     "id": "w46",
+     "text": "Isinya",
+     "start": 21.13,
+     "end": 21.5
+    },
+    {
+     "id": "w47",
+     "text": "minimal",
+     "start": 21.55,
+     "end": 21.92
+    },
+    {
+     "id": "w48",
+     "text": "memuat",
+     "start": 21.97,
+     "end": 22.34
+    },
+    {
+     "id": "w49",
+     "text": "data",
+     "start": 22.39,
+     "end": 22.76
+    },
+    {
+     "id": "w50",
+     "text": "apa",
+     "start": 22.81,
+     "end": 23.18
+    },
+    {
+     "id": "w51",
+     "text": "yang",
+     "start": 23.23,
+     "end": 23.6
+    },
+    {
+     "id": "w52",
+     "text": "terungkap,",
+     "start": 23.65,
+     "end": 24.02
+    },
+    {
+     "id": "w53",
+     "text": "kapan",
+     "start": 24.07,
+     "end": 24.44
+    },
+    {
+     "id": "w54",
+     "text": "dan",
+     "start": 24.49,
+     "end": 24.86
+    },
+    {
+     "id": "w55",
+     "text": "bagaimana",
+     "start": 24.91,
+     "end": 25.28
+    },
+    {
+     "id": "w56",
+     "text": "bocornya,",
+     "start": 25.33,
+     "end": 25.7
+    },
+    {
+     "id": "w57",
+     "text": "serta",
+     "start": 25.75,
+     "end": 26.12
+    },
+    {
+     "id": "w58",
+     "text": "upaya",
+     "start": 26.17,
+     "end": 26.54
+    },
+    {
+     "id": "w59",
+     "text": "penanganannya.",
+     "start": 26.59,
+     "end": 26.96
+    },
+    {
+     "id": "w60",
+     "text": "Apa",
+     "start": 27.26,
+     "end": 27.63
+    },
+    {
+     "id": "w61",
+     "text": "hak",
+     "start": 27.68,
+     "end": 28.05
+    },
+    {
+     "id": "w62",
+     "text": "Anda?",
+     "start": 28.1,
+     "end": 28.47
+    },
+    {
+     "id": "w63",
+     "text": "Anda",
+     "start": 28.77,
+     "end": 29.14
+    },
+    {
+     "id": "w64",
+     "text": "berhak",
+     "start": 29.19,
+     "end": 29.56
+    },
+    {
+     "id": "w65",
+     "text": "tahu",
+     "start": 29.61,
+     "end": 29.98
+    },
+    {
+     "id": "w66",
+     "text": "untuk",
+     "start": 30.03,
+     "end": 30.4
+    },
+    {
+     "id": "w67",
+     "text": "apa",
+     "start": 30.45,
+     "end": 30.82
+    },
+    {
+     "id": "w68",
+     "text": "data",
+     "start": 30.87,
+     "end": 31.24
+    },
+    {
+     "id": "w69",
+     "text": "dipakai,",
+     "start": 31.29,
+     "end": 31.66
+    },
+    {
+     "id": "w70",
+     "text": "meminta",
+     "start": 31.71,
+     "end": 32.08
+    },
+    {
+     "id": "w71",
+     "text": "salinannya,",
+     "start": 32.13,
+     "end": 32.5
+    },
+    {
+     "id": "w72",
+     "text": "meminta",
+     "start": 32.55,
+     "end": 32.92
+    },
+    {
+     "id": "w73",
+     "text": "pemrosesan",
+     "start": 32.97,
+     "end": 33.34
+    },
+    {
+     "id": "w74",
+     "text": "dihentikan",
+     "start": 33.39,
+     "end": 33.76
+    },
+    {
+     "id": "w75",
+     "text": "atau",
+     "start": 33.81,
+     "end": 34.18
+    },
+    {
+     "id": "w76",
+     "text": "data",
+     "start": 34.23,
+     "end": 34.6
+    },
+    {
+     "id": "w77",
+     "text": "dihapus,",
+     "start": 34.65,
+     "end": 35.02
+    },
+    {
+     "id": "w78",
+     "text": "dan",
+     "start": 35.07,
+     "end": 35.44
+    },
+    {
+     "id": "w79",
+     "text": "menarik",
+     "start": 35.49,
+     "end": 35.86
+    },
+    {
+     "id": "w80",
+     "text": "persetujuan.",
+     "start": 35.91,
+     "end": 36.28
+    },
+    {
+     "id": "w81",
+     "text": "Hak-hak",
+     "start": 36.58,
+     "end": 36.95
+    },
+    {
+     "id": "w82",
+     "text": "ini",
+     "start": 37,
+     "end": 37.37
+    },
+    {
+     "id": "w83",
+     "text": "diatur",
+     "start": 37.42,
+     "end": 37.79
+    },
+    {
+     "id": "w84",
+     "text": "antara",
+     "start": 37.84,
+     "end": 38.21
+    },
+    {
+     "id": "w85",
+     "text": "lain",
+     "start": 38.26,
+     "end": 38.63
+    },
+    {
+     "id": "w86",
+     "text": "di",
+     "start": 38.68,
+     "end": 39.05
+    },
+    {
+     "id": "w87",
+     "text": "pasal",
+     "start": 39.1,
+     "end": 39.47
+    },
+    {
+     "id": "w88",
+     "text": "lima",
+     "start": 39.52,
+     "end": 39.89
+    },
+    {
+     "id": "w89",
+     "text": "sampai",
+     "start": 39.94,
+     "end": 40.31
+    },
+    {
+     "id": "w90",
+     "text": "sembilan.",
+     "start": 40.36,
+     "end": 40.73
+    },
+    {
+     "id": "w91",
+     "text": "Kalau",
+     "start": 41.03,
+     "end": 41.4
+    },
+    {
+     "id": "w92",
+     "text": "tidak",
+     "start": 41.45,
+     "end": 41.82
+    },
+    {
+     "id": "w93",
+     "text": "beres?",
+     "start": 41.87,
+     "end": 42.24
+    },
+    {
+     "id": "w94",
+     "text": "Kirim",
+     "start": 42.54,
+     "end": 42.91
+    },
+    {
+     "id": "w95",
+     "text": "email",
+     "start": 42.96,
+     "end": 43.33
+    },
+    {
+     "id": "w96",
+     "text": "resmi",
+     "start": 43.38,
+     "end": 43.75
+    },
+    {
+     "id": "w97",
+     "text": "ke",
+     "start": 43.8,
+     "end": 44.17
+    },
+    {
+     "id": "w98",
+     "text": "kontak",
+     "start": 44.22,
+     "end": 44.59
+    },
+    {
+     "id": "w99",
+     "text": "privasi",
+     "start": 44.64,
+     "end": 45.01
+    },
+    {
+     "id": "w100",
+     "text": "perusahaan,",
+     "start": 45.06,
+     "end": 45.43
+    },
+    {
+     "id": "w101",
+     "text": "dan",
+     "start": 45.48,
+     "end": 45.85
+    },
+    {
+     "id": "w102",
+     "text": "simpan",
+     "start": 45.9,
+     "end": 46.27
+    },
+    {
+     "id": "w103",
+     "text": "bukti",
+     "start": 46.32,
+     "end": 46.69
+    },
+    {
+     "id": "w104",
+     "text": "kirimnya.",
+     "start": 46.74,
+     "end": 47.11
+    },
+    {
+     "id": "w105",
+     "text": "Anda",
+     "start": 47.41,
+     "end": 47.78
+    },
+    {
+     "id": "w106",
+     "text": "juga",
+     "start": 47.83,
+     "end": 48.2
+    },
+    {
+     "id": "w107",
+     "text": "berhak",
+     "start": 48.25,
+     "end": 48.62
+    },
+    {
+     "id": "w108",
+     "text": "menggugat",
+     "start": 48.67,
+     "end": 49.04
+    },
+    {
+     "id": "w109",
+     "text": "dan",
+     "start": 49.09,
+     "end": 49.46
+    },
+    {
+     "id": "w110",
+     "text": "menerima",
+     "start": 49.51,
+     "end": 49.88
+    },
+    {
+     "id": "w111",
+     "text": "ganti",
+     "start": 49.93,
+     "end": 50.3
+    },
+    {
+     "id": "w112",
+     "text": "rugi,",
+     "start": 50.35,
+     "end": 50.72
+    },
+    {
+     "id": "w113",
+     "text": "menurut",
+     "start": 50.77,
+     "end": 51.14
+    },
+    {
+     "id": "w114",
+     "text": "pasal",
+     "start": 51.19,
+     "end": 51.56
+    },
+    {
+     "id": "w115",
+     "text": "dua",
+     "start": 51.61,
+     "end": 51.98
+    },
+    {
+     "id": "w116",
+     "text": "belas.",
+     "start": 52.03,
+     "end": 52.4
+    },
+    {
+     "id": "w117",
+     "text": "Pelanggar",
+     "start": 52.7,
+     "end": 53.07
+    },
+    {
+     "id": "w118",
+     "text": "bisa",
+     "start": 53.12,
+     "end": 53.49
+    },
+    {
+     "id": "w119",
+     "text": "dikenai",
+     "start": 53.54,
+     "end": 53.91
+    },
+    {
+     "id": "w120",
+     "text": "sanksi",
+     "start": 53.96,
+     "end": 54.33
+    },
+    {
+     "id": "w121",
+     "text": "administratif,",
+     "start": 54.38,
+     "end": 54.75
+    },
+    {
+     "id": "w122",
+     "text": "dendanya",
+     "start": 54.8,
+     "end": 55.17
+    },
+    {
+     "id": "w123",
+     "text": "paling",
+     "start": 55.22,
+     "end": 55.59
+    },
+    {
+     "id": "w124",
+     "text": "tinggi",
+     "start": 55.64,
+     "end": 56.01
+    },
+    {
+     "id": "w125",
+     "text": "dua",
+     "start": 56.06,
+     "end": 56.43
+    },
+    {
+     "id": "w126",
+     "text": "persen",
+     "start": 56.48,
+     "end": 56.85
+    },
+    {
+     "id": "w127",
+     "text": "dari",
+     "start": 56.9,
+     "end": 57.27
+    },
+    {
+     "id": "w128",
+     "text": "pendapatan",
+     "start": 57.32,
+     "end": 57.69
+    },
+    {
+     "id": "w129",
+     "text": "tahunan.",
+     "start": 57.74,
+     "end": 58.11
+    },
+    {
+     "id": "w130",
+     "text": "Namun",
+     "start": 58.41,
+     "end": 58.78
+    },
+    {
+     "id": "w131",
+     "text": "lembaga",
+     "start": 58.83,
+     "end": 59.2
+    },
+    {
+     "id": "w132",
+     "text": "pengawasnya",
+     "start": 59.25,
+     "end": 59.62
+    },
+    {
+     "id": "w133",
+     "text": "belum",
+     "start": 59.67,
+     "end": 60.04
+    },
+    {
+     "id": "w134",
+     "text": "resmi",
+     "start": 60.09,
+     "end": 60.46
+    },
+    {
+     "id": "w135",
+     "text": "terbentuk,",
+     "start": 60.51,
+     "end": 60.88
+    },
+    {
+     "id": "w136",
+     "text": "jadi",
+     "start": 60.93,
+     "end": 61.3
+    },
+    {
+     "id": "w137",
+     "text": "penegakannya",
+     "start": 61.35,
+     "end": 61.72
+    },
+    {
+     "id": "w138",
+     "text": "masih",
+     "start": 61.77,
+     "end": 62.14
+    },
+    {
+     "id": "w139",
+     "text": "menunggu.",
+     "start": 62.19,
+     "end": 62.56
+    },
+    {
+     "id": "w140",
+     "text": "Informasi",
+     "start": 62.86,
+     "end": 63.23
+    },
+    {
+     "id": "w141",
+     "text": "umum,",
+     "start": 63.28,
+     "end": 63.65
+    },
+    {
+     "id": "w142",
+     "text": "bukan",
+     "start": 63.7,
+     "end": 64.07
+    },
+    {
+     "id": "w143",
+     "text": "nasihat",
+     "start": 64.12,
+     "end": 64.49
+    },
+    {
+     "id": "w144",
+     "text": "hukum.",
+     "start": 64.54,
+     "end": 64.91
+    },
+    {
+     "id": "w145",
+     "text": "Untuk",
+     "start": 65.21,
+     "end": 65.58
+    },
+    {
+     "id": "w146",
+     "text": "kasus",
+     "start": 65.63,
+     "end": 66
+    },
+    {
+     "id": "w147",
+     "text": "Anda,",
+     "start": 66.05,
+     "end": 66.42
+    },
+    {
+     "id": "w148",
+     "text": "konsultasikan",
+     "start": 66.47,
+     "end": 66.84
+    },
+    {
+     "id": "w149",
+     "text": "ke",
+     "start": 66.89,
+     "end": 67.26
+    },
+    {
+     "id": "w150",
+     "text": "advokat",
+     "start": 67.31,
+     "end": 67.68
+    },
+    {
+     "id": "w151",
+     "text": "atau",
+     "start": 67.73,
+     "end": 68.1
+    },
+    {
+     "id": "w152",
+     "text": "LBH.",
+     "start": 68.15,
+     "end": 68.52
+    }
+   ]
+  }
+ ]
+}
